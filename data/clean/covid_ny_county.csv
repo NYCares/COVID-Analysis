@@ -1,4 +1,4 @@
-﻿ID,County Name,State,Date,Population,Deaths,Cases,% of Population,% or Deaths,% of Cases
+﻿ID,County,State,Date,Population,Deaths,Cases,% of Population,% or Deaths,% of Cases
 0500000US36NYS,Statewide Unallocated,NY,5/22/2020,0,90,69,0,0,0
 0500000US36NYC,New York City Unallocated,NY,5/22/2020,0,310,0,0,1,0
 0500000US36001,Albany County,NY,5/22/2020,305506,94,1756,2,0,0

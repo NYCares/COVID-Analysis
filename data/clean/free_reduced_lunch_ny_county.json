@@ -1,0 +1,522 @@
+{
+    "New York State": {
+        "ID": "0500000US36NYS",
+        "Region": "New York State",
+        "population": "19453561",
+        "number on program": "1,441,350",
+        "percent of the county": "",
+        "percent of state": "7.41"
+    },
+    "New York City": {
+        "ID": "0500000US36NYC",
+        "Region": "New York City",
+        "population": "8336817",
+        "number on program": "775,759",
+        "percent of the county": "",
+        "percent of state": "3.99"
+    },
+    "Bronx County": {
+        "ID": "0500000US36005",
+        "Region": "Bronx County",
+        "population": "1418207",
+        "number on program": "187,293",
+        "percent of the county": "13",
+        "percent of state": "0.96"
+    },
+    "Kings County": {
+        "ID": "0500000US36047",
+        "Region": "Kings County",
+        "population": "2559903",
+        "number on program": "238,173",
+        "percent of the county": "9",
+        "percent of state": "1.22"
+    },
+    "New York County": {
+        "ID": "0500000US36061",
+        "Region": "New York County",
+        "population": "1628706",
+        "number on program": "110,472",
+        "percent of the county": "7",
+        "percent of state": "0.57"
+    },
+    "Queens County": {
+        "ID": "0500000US36081",
+        "Region": "Queens County",
+        "population": "2253858",
+        "number on program": "204,916",
+        "percent of the county": "9",
+        "percent of state": "1.05"
+    },
+    "Richmond County": {
+        "ID": "0500000US36085",
+        "Region": "Richmond County",
+        "population": "476143",
+        "number on program": "34,905",
+        "percent of the county": "7",
+        "percent of state": "0.18"
+    },
+    "Rest of State": {
+        "ID": "0500000US36NYR",
+        "Region": "Rest of State",
+        "population": "11116744",
+        "number on program": "665,591",
+        "percent of the county": "",
+        "percent of state": "3.42"
+    },
+    "Albany County": {
+        "ID": "0500000US36001",
+        "Region": "Albany County",
+        "population": "305506",
+        "number on program": "16,272",
+        "percent of the county": "5",
+        "percent of state": "0.08"
+    },
+    "Allegany County": {
+        "ID": "0500000US36003",
+        "Region": "Allegany County",
+        "population": "46091",
+        "number on program": "3,248",
+        "percent of the county": "7",
+        "percent of state": "0.02"
+    },
+    "Broome County": {
+        "ID": "0500000US36007",
+        "Region": "Broome County",
+        "population": "190488",
+        "number on program": "13,710",
+        "percent of the county": "7",
+        "percent of state": "0.07"
+    },
+    "Cattaraugus County": {
+        "ID": "0500000US36009",
+        "Region": "Cattaraugus County",
+        "population": "76117",
+        "number on program": "6,675",
+        "percent of the county": "9",
+        "percent of state": "0.03"
+    },
+    "Cayuga County": {
+        "ID": "0500000US36011",
+        "Region": "Cayuga County",
+        "population": "76576",
+        "number on program": "4,168",
+        "percent of the county": "5",
+        "percent of state": "0.02"
+    },
+    "Chautauqua County": {
+        "ID": "0500000US36013",
+        "Region": "Chautauqua County",
+        "population": "126903",
+        "number on program": "9,719",
+        "percent of the county": "8",
+        "percent of state": "0.05"
+    },
+    "Chemung County": {
+        "ID": "0500000US36015",
+        "Region": "Chemung County",
+        "population": "83456",
+        "number on program": "5,614",
+        "percent of the county": "7",
+        "percent of state": "0.03"
+    },
+    "Chenango County": {
+        "ID": "0500000US36017",
+        "Region": "Chenango County",
+        "population": "47207",
+        "number on program": "4,057",
+        "percent of the county": "9",
+        "percent of state": "0.02"
+    },
+    "Clinton County": {
+        "ID": "0500000US36019",
+        "Region": "Clinton County",
+        "population": "80485",
+        "number on program": "4,776",
+        "percent of the county": "6",
+        "percent of state": "0.02"
+    },
+    "Columbia County": {
+        "ID": "0500000US36021",
+        "Region": "Columbia County",
+        "population": "59461",
+        "number on program": "3,388",
+        "percent of the county": "6",
+        "percent of state": "0.02"
+    },
+    "Cortland County": {
+        "ID": "0500000US36023",
+        "Region": "Cortland County",
+        "population": "47581",
+        "number on program": "3,030",
+        "percent of the county": "6",
+        "percent of state": "0.02"
+    },
+    "Delaware County": {
+        "ID": "0500000US36025",
+        "Region": "Delaware County",
+        "population": "44135",
+        "number on program": "2,678",
+        "percent of the county": "6",
+        "percent of state": "0.01"
+    },
+    "Dutchess County": {
+        "ID": "0500000US36027",
+        "Region": "Dutchess County",
+        "population": "294218",
+        "number on program": "13,182",
+        "percent of the county": "4",
+        "percent of state": "0.07"
+    },
+    "Erie County": {
+        "ID": "0500000US36029",
+        "Region": "Erie County",
+        "population": "918702",
+        "number on program": "59,619",
+        "percent of the county": "6",
+        "percent of state": "0.31"
+    },
+    "Essex County": {
+        "ID": "0500000US36031",
+        "Region": "Essex County",
+        "population": "36885",
+        "number on program": "1,679",
+        "percent of the county": "5",
+        "percent of state": "0.01"
+    },
+    "Franklin County": {
+        "ID": "0500000US36033",
+        "Region": "Franklin County",
+        "population": "50022",
+        "number on program": "4,040",
+        "percent of the county": "8",
+        "percent of state": "0.02"
+    },
+    "Fulton County": {
+        "ID": "0500000US36035",
+        "Region": "Fulton County",
+        "population": "53383",
+        "number on program": "3,732",
+        "percent of the county": "7",
+        "percent of state": "0.02"
+    },
+    "Genesee County": {
+        "ID": "0500000US36037",
+        "Region": "Genesee County",
+        "population": "57280",
+        "number on program": "3,538",
+        "percent of the county": "6",
+        "percent of state": "0.02"
+    },
+    "Greene County": {
+        "ID": "0500000US36039",
+        "Region": "Greene County",
+        "population": "47188",
+        "number on program": "2,555",
+        "percent of the county": "5",
+        "percent of state": "0.01"
+    },
+    "Hamilton County": {
+        "ID": "0500000US36041",
+        "Region": "Hamilton County",
+        "population": "4416",
+        "number on program": "182",
+        "percent of the county": "4",
+        "percent of state": "0"
+    },
+    "Herkimer County": {
+        "ID": "0500000US36043",
+        "Region": "Herkimer County",
+        "population": "61319",
+        "number on program": "4,796",
+        "percent of the county": "8",
+        "percent of state": "0.02"
+    },
+    "Jefferson County": {
+        "ID": "0500000US36045",
+        "Region": "Jefferson County",
+        "population": "109834",
+        "number on program": "9,051",
+        "percent of the county": "8",
+        "percent of state": "0.05"
+    },
+    "Lewis County": {
+        "ID": "0500000US36049",
+        "Region": "Lewis County",
+        "population": "26296",
+        "number on program": "2,066",
+        "percent of the county": "8",
+        "percent of state": "0.01"
+    },
+    "Livingston County": {
+        "ID": "0500000US36051",
+        "Region": "Livingston County",
+        "population": "62914",
+        "number on program": "3,127",
+        "percent of the county": "5",
+        "percent of state": "0.02"
+    },
+    "Madison County": {
+        "ID": "0500000US36053",
+        "Region": "Madison County",
+        "population": "70941",
+        "number on program": "4,048",
+        "percent of the county": "6",
+        "percent of state": "0.02"
+    },
+    "Monroe County": {
+        "ID": "0500000US36055",
+        "Region": "Monroe County",
+        "population": "741770",
+        "number on program": "52,486",
+        "percent of the county": "7",
+        "percent of state": "0.27"
+    },
+    "Montgomery County": {
+        "ID": "0500000US36057",
+        "Region": "Montgomery County",
+        "population": "49221",
+        "number on program": "4,236",
+        "percent of the county": "9",
+        "percent of state": "0.02"
+    },
+    "Nassau County": {
+        "ID": "0500000US36059",
+        "Region": "Nassau County",
+        "population": "1356924",
+        "number on program": "59,657",
+        "percent of the county": "4",
+        "percent of state": "0.31"
+    },
+    "Niagara County": {
+        "ID": "0500000US36063",
+        "Region": "Niagara County",
+        "population": "209281",
+        "number on program": "13,233",
+        "percent of the county": "6",
+        "percent of state": "0.07"
+    },
+    "Oneida County": {
+        "ID": "0500000US36065",
+        "Region": "Oneida County",
+        "population": "228671",
+        "number on program": "18,232",
+        "percent of the county": "8",
+        "percent of state": "0.09"
+    },
+    "Onondaga County": {
+        "ID": "0500000US36067",
+        "Region": "Onondaga County",
+        "population": "460528",
+        "number on program": "32,590",
+        "percent of the county": "7",
+        "percent of state": "0.17"
+    },
+    "Ontario County": {
+        "ID": "0500000US36069",
+        "Region": "Ontario County",
+        "population": "109777",
+        "number on program": "5,700",
+        "percent of the county": "5",
+        "percent of state": "0.03"
+    },
+    "Orange County": {
+        "ID": "0500000US36071",
+        "Region": "Orange County",
+        "population": "384940",
+        "number on program": "24,698",
+        "percent of the county": "6",
+        "percent of state": "0.13"
+    },
+    "Orleans County": {
+        "ID": "0500000US36073",
+        "Region": "Orleans County",
+        "population": "40352",
+        "number on program": "3,044",
+        "percent of the county": "8",
+        "percent of state": "0.02"
+    },
+    "Oswego County": {
+        "ID": "0500000US36075",
+        "Region": "Oswego County",
+        "population": "117124",
+        "number on program": "10,013",
+        "percent of the county": "9",
+        "percent of state": "0.05"
+    },
+    "Otsego County": {
+        "ID": "0500000US36077",
+        "Region": "Otsego County",
+        "population": "59493",
+        "number on program": "3,010",
+        "percent of the county": "5",
+        "percent of state": "0.02"
+    },
+    "Putnam County": {
+        "ID": "0500000US36079",
+        "Region": "Putnam County",
+        "population": "98320",
+        "number on program": "3,001",
+        "percent of the county": "3",
+        "percent of state": "0.02"
+    },
+    "Rensselaer County": {
+        "ID": "0500000US36083",
+        "Region": "Rensselaer County",
+        "population": "158714",
+        "number on program": "9,009",
+        "percent of the county": "6",
+        "percent of state": "0.05"
+    },
+    "Rockland County": {
+        "ID": "0500000US36087",
+        "Region": "Rockland County",
+        "population": "325789",
+        "number on program": "16,940",
+        "percent of the county": "5",
+        "percent of state": "0.09"
+    },
+    "St. Lawrence County": {
+        "ID": "0500000US36089",
+        "Region": "St. Lawrence County",
+        "population": "107740",
+        "number on program": "7,648",
+        "percent of the county": "7",
+        "percent of state": "0.04"
+    },
+    "Saratoga County": {
+        "ID": "0500000US36091",
+        "Region": "Saratoga County",
+        "population": "229863",
+        "number on program": "7,870",
+        "percent of the county": "3",
+        "percent of state": "0.04"
+    },
+    "Schenectady County": {
+        "ID": "0500000US36093",
+        "Region": "Schenectady County",
+        "population": "155299",
+        "number on program": "10,538",
+        "percent of the county": "7",
+        "percent of state": "0.05"
+    },
+    "Schoharie County": {
+        "ID": "0500000US36095",
+        "Region": "Schoharie County",
+        "population": "30999",
+        "number on program": "2,075",
+        "percent of the county": "7",
+        "percent of state": "0.01"
+    },
+    "Schuyler County": {
+        "ID": "0500000US36097",
+        "Region": "Schuyler County",
+        "population": "17807",
+        "number on program": "885",
+        "percent of the county": "5",
+        "percent of state": "0"
+    },
+    "Seneca County": {
+        "ID": "0500000US36099",
+        "Region": "Seneca County",
+        "population": "34016",
+        "number on program": "2,049",
+        "percent of the county": "6",
+        "percent of state": "0.01"
+    },
+    "Steuben County": {
+        "ID": "0500000US36101",
+        "Region": "Steuben County",
+        "population": "95379",
+        "number on program": "7,139",
+        "percent of the county": "7",
+        "percent of state": "0.04"
+    },
+    "Suffolk County": {
+        "ID": "0500000US36103",
+        "Region": "Suffolk County",
+        "population": "1476601",
+        "number on program": "88,401",
+        "percent of the county": "6",
+        "percent of state": "0.45"
+    },
+    "Sullivan County": {
+        "ID": "0500000US36105",
+        "Region": "Sullivan County",
+        "population": "75432",
+        "number on program": "5,377",
+        "percent of the county": "7",
+        "percent of state": "0.03"
+    },
+    "Tioga County": {
+        "ID": "0500000US36107",
+        "Region": "Tioga County",
+        "population": "48203",
+        "number on program": "3,684",
+        "percent of the county": "8",
+        "percent of state": "0.02"
+    },
+    "Tompkins County": {
+        "ID": "0500000US36109",
+        "Region": "Tompkins County",
+        "population": "102180",
+        "number on program": "4,244",
+        "percent of the county": "4",
+        "percent of state": "0.02"
+    },
+    "Ulster County": {
+        "ID": "0500000US36111",
+        "Region": "Ulster County",
+        "population": "177573",
+        "number on program": "10,162",
+        "percent of the county": "6",
+        "percent of state": "0.05"
+    },
+    "Warren County": {
+        "ID": "0500000US36113",
+        "Region": "Warren County",
+        "population": "63944",
+        "number on program": "3,479",
+        "percent of the county": "5",
+        "percent of state": "0.02"
+    },
+    "Washington County": {
+        "ID": "0500000US36115",
+        "Region": "Washington County",
+        "population": "61204",
+        "number on program": "3,957",
+        "percent of the county": "6",
+        "percent of state": "0.02"
+    },
+    "Wayne County": {
+        "ID": "0500000US36117",
+        "Region": "Wayne County",
+        "population": "89918",
+        "number on program": "6,474",
+        "percent of the county": "7",
+        "percent of state": "0.03"
+    },
+    "Westchester County": {
+        "ID": "0500000US36119",
+        "Region": "Westchester County",
+        "population": "967506",
+        "number on program": "54,009",
+        "percent of the county": "6",
+        "percent of state": "0.28"
+    },
+    "Wyoming County": {
+        "ID": "0500000US36121",
+        "Region": "Wyoming County",
+        "population": "39859",
+        "number on program": "1,649",
+        "percent of the county": "4",
+        "percent of state": "0.01"
+    },
+    "Yates County": {
+        "ID": "0500000US36123",
+        "Region": "Yates County",
+        "population": "24913",
+        "number on program": "1,152",
+        "percent of the county": "5",
+        "percent of state": "0.01"
+    }
+}

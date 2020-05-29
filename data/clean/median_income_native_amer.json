@@ -1,0 +1,436 @@
+{
+    "Schoharie County": {
+        "id": "0500000US36095",
+        "County": "Schoharie County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Onondaga County": {
+        "id": "0500000US36067",
+        "County": "Onondaga County",
+        "NativeAmer": "39747",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Clinton County": {
+        "id": "0500000US36019",
+        "County": "Clinton County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Seneca County": {
+        "id": "0500000US36099",
+        "County": "Seneca County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Putnam County": {
+        "id": "0500000US36079",
+        "County": "Putnam County",
+        "NativeAmer": "55739",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Franklin County": {
+        "id": "0500000US36033",
+        "County": "Franklin County",
+        "NativeAmer": "46747",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Ontario County": {
+        "id": "0500000US36069",
+        "County": "Ontario County",
+        "NativeAmer": "75850",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Queens County": {
+        "id": "0500000US36081",
+        "County": "Queens County",
+        "NativeAmer": "52410",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Steuben County": {
+        "id": "0500000US36101",
+        "County": "Steuben County",
+        "NativeAmer": "37813",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Hamilton County": {
+        "id": "0500000US36041",
+        "County": "Hamilton County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Washington County": {
+        "id": "0500000US36115",
+        "County": "Washington County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Chautauqua County": {
+        "id": "0500000US36013",
+        "County": "Chautauqua County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Kings County": {
+        "id": "0500000US36047",
+        "County": "Kings County",
+        "NativeAmer": "43401",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "New York County": {
+        "id": "0500000US36061",
+        "County": "New York County",
+        "NativeAmer": "41650",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Tioga County": {
+        "id": "0500000US36107",
+        "County": "Tioga County",
+        "NativeAmer": "90265",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Cayuga County": {
+        "id": "0500000US36011",
+        "County": "Cayuga County",
+        "NativeAmer": "41875",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Orleans County": {
+        "id": "0500000US36073",
+        "County": "Orleans County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Saratoga County": {
+        "id": "0500000US36091",
+        "County": "Saratoga County",
+        "NativeAmer": "108125",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Rockland County": {
+        "id": "0500000US36087",
+        "County": "Rockland County",
+        "NativeAmer": "150341",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Columbia County": {
+        "id": "0500000US36021",
+        "County": "Columbia County",
+        "NativeAmer": "103750",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Lewis County": {
+        "id": "0500000US36049",
+        "County": "Lewis County",
+        "NativeAmer": "73500",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Niagara County": {
+        "id": "0500000US36063",
+        "County": "Niagara County",
+        "NativeAmer": "38456",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Westchester County": {
+        "id": "0500000US36119",
+        "County": "Westchester County",
+        "NativeAmer": "56745",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Delaware County": {
+        "id": "0500000US36025",
+        "County": "Delaware County",
+        "NativeAmer": "31375",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Essex County": {
+        "id": "0500000US36031",
+        "County": "Essex County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Montgomery County": {
+        "id": "0500000US36057",
+        "County": "Montgomery County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Nassau County": {
+        "id": "0500000US36059",
+        "County": "Nassau County",
+        "NativeAmer": "64260",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Richmond County": {
+        "id": "0500000US36085",
+        "County": "Richmond County",
+        "NativeAmer": "70294",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Schuyler County": {
+        "id": "0500000US36097",
+        "County": "Schuyler County",
+        "NativeAmer": "44643",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Tompkins County": {
+        "id": "0500000US36109",
+        "County": "Tompkins County",
+        "NativeAmer": "90313",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Chenango County": {
+        "id": "0500000US36017",
+        "County": "Chenango County",
+        "NativeAmer": "86034",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Cortland County": {
+        "id": "0500000US36023",
+        "County": "Cortland County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Jefferson County": {
+        "id": "0500000US36045",
+        "County": "Jefferson County",
+        "NativeAmer": "43977",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Oneida County": {
+        "id": "0500000US36065",
+        "County": "Oneida County",
+        "NativeAmer": "36576",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Suffolk County": {
+        "id": "0500000US36103",
+        "County": "Suffolk County",
+        "NativeAmer": "77232",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Wyoming County": {
+        "id": "0500000US36121",
+        "County": "Wyoming County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Chemung County": {
+        "id": "0500000US36015",
+        "County": "Chemung County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Oswego County": {
+        "id": "0500000US36075",
+        "County": "Oswego County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Otsego County": {
+        "id": "0500000US36077",
+        "County": "Otsego County",
+        "NativeAmer": "53125",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Wayne County": {
+        "id": "0500000US36117",
+        "County": "Wayne County",
+        "NativeAmer": "52159",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Albany County": {
+        "id": "0500000US36001",
+        "County": "Albany County",
+        "NativeAmer": "46902",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Broome County": {
+        "id": "0500000US36007",
+        "County": "Broome County",
+        "NativeAmer": "18534",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Erie County": {
+        "id": "0500000US36029",
+        "County": "Erie County",
+        "NativeAmer": "24135",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Madison County": {
+        "id": "0500000US36053",
+        "County": "Madison County",
+        "NativeAmer": "48152",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Sullivan County": {
+        "id": "0500000US36105",
+        "County": "Sullivan County",
+        "NativeAmer": "63300",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Genesee County": {
+        "id": "0500000US36037",
+        "County": "Genesee County",
+        "NativeAmer": "43971",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Orange County": {
+        "id": "0500000US36071",
+        "County": "Orange County",
+        "NativeAmer": "67917",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Bronx County": {
+        "id": "0500000US36005",
+        "County": "Bronx County",
+        "NativeAmer": "30884",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Fulton County": {
+        "id": "0500000US36035",
+        "County": "Fulton County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Rensselaer County": {
+        "id": "0500000US36083",
+        "County": "Rensselaer County",
+        "NativeAmer": "33450",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Dutchess County": {
+        "id": "0500000US36027",
+        "County": "Dutchess County",
+        "NativeAmer": "68977",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Herkimer County": {
+        "id": "0500000US36043",
+        "County": "Herkimer County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "St. Lawrence County": {
+        "id": "0500000US36089",
+        "County": "St. Lawrence County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Warren County": {
+        "id": "0500000US36113",
+        "County": "Warren County",
+        "NativeAmer": "45476",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Monroe County": {
+        "id": "0500000US36055",
+        "County": "Monroe County",
+        "NativeAmer": "26174",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Ulster County": {
+        "id": "0500000US36111",
+        "County": "Ulster County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Livingston County": {
+        "id": "0500000US36051",
+        "County": "Livingston County",
+        "NativeAmer": "41471",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Greene County": {
+        "id": "0500000US36039",
+        "County": "Greene County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Allegany County": {
+        "id": "0500000US36003",
+        "County": "Allegany County",
+        "NativeAmer": "34239",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Cattaraugus County": {
+        "id": "0500000US36009",
+        "County": "Cattaraugus County",
+        "NativeAmer": "28625",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Schenectady County": {
+        "id": "0500000US36093",
+        "County": "Schenectady County",
+        "NativeAmer": "54135",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    },
+    "Yates County": {
+        "id": "0500000US36123",
+        "County": "Yates County",
+        "NativeAmer": "-",
+        "TableReferenceId": "B19013C",
+        "CensusNotes ": "median income"
+    }
+}
