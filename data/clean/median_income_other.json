@@ -1,0 +1,436 @@
+{
+    "Schoharie County": {
+        "id": "0500000US36095",
+        "County": "Schoharie County",
+        "Other": "68438",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Onondaga County": {
+        "id": "0500000US36067",
+        "County": "Onondaga County",
+        "Other": "25455",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Clinton County": {
+        "id": "0500000US36019",
+        "County": "Clinton County",
+        "Other": "41579",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Seneca County": {
+        "id": "0500000US36099",
+        "County": "Seneca County",
+        "Other": "35750",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Putnam County": {
+        "id": "0500000US36079",
+        "County": "Putnam County",
+        "Other": "73882",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Franklin County": {
+        "id": "0500000US36033",
+        "County": "Franklin County",
+        "Other": "54375",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Ontario County": {
+        "id": "0500000US36069",
+        "County": "Ontario County",
+        "Other": "34167",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Queens County": {
+        "id": "0500000US36081",
+        "County": "Queens County",
+        "Other": "53935",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Steuben County": {
+        "id": "0500000US36101",
+        "County": "Steuben County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Hamilton County": {
+        "id": "0500000US36041",
+        "County": "Hamilton County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Washington County": {
+        "id": "0500000US36115",
+        "County": "Washington County",
+        "Other": "60074",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Chautauqua County": {
+        "id": "0500000US36013",
+        "County": "Chautauqua County",
+        "Other": "23441",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Kings County": {
+        "id": "0500000US36047",
+        "County": "Kings County",
+        "Other": "36614",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "New York County": {
+        "id": "0500000US36061",
+        "County": "New York County",
+        "Other": "34616",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Tioga County": {
+        "id": "0500000US36107",
+        "County": "Tioga County",
+        "Other": "29300",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Cayuga County": {
+        "id": "0500000US36011",
+        "County": "Cayuga County",
+        "Other": "24231",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Orleans County": {
+        "id": "0500000US36073",
+        "County": "Orleans County",
+        "Other": "18400",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Saratoga County": {
+        "id": "0500000US36091",
+        "County": "Saratoga County",
+        "Other": "90453",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Rockland County": {
+        "id": "0500000US36087",
+        "County": "Rockland County",
+        "Other": "56376",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Columbia County": {
+        "id": "0500000US36021",
+        "County": "Columbia County",
+        "Other": "26810",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Lewis County": {
+        "id": "0500000US36049",
+        "County": "Lewis County",
+        "Other": "27829",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Niagara County": {
+        "id": "0500000US36063",
+        "County": "Niagara County",
+        "Other": "27303",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Westchester County": {
+        "id": "0500000US36119",
+        "County": "Westchester County",
+        "Other": "53608",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Delaware County": {
+        "id": "0500000US36025",
+        "County": "Delaware County",
+        "Other": "23561",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Essex County": {
+        "id": "0500000US36031",
+        "County": "Essex County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Montgomery County": {
+        "id": "0500000US36057",
+        "County": "Montgomery County",
+        "Other": "27156",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Nassau County": {
+        "id": "0500000US36059",
+        "County": "Nassau County",
+        "Other": "68377",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Richmond County": {
+        "id": "0500000US36085",
+        "County": "Richmond County",
+        "Other": "51467",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Schuyler County": {
+        "id": "0500000US36097",
+        "County": "Schuyler County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Tompkins County": {
+        "id": "0500000US36109",
+        "County": "Tompkins County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Chenango County": {
+        "id": "0500000US36017",
+        "County": "Chenango County",
+        "Other": "54000",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Cortland County": {
+        "id": "0500000US36023",
+        "County": "Cortland County",
+        "Other": "21455",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Jefferson County": {
+        "id": "0500000US36045",
+        "County": "Jefferson County",
+        "Other": "43590",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Oneida County": {
+        "id": "0500000US36065",
+        "County": "Oneida County",
+        "Other": "21988",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Suffolk County": {
+        "id": "0500000US36103",
+        "County": "Suffolk County",
+        "Other": "75135",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Wyoming County": {
+        "id": "0500000US36121",
+        "County": "Wyoming County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Chemung County": {
+        "id": "0500000US36015",
+        "County": "Chemung County",
+        "Other": "57821",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Oswego County": {
+        "id": "0500000US36075",
+        "County": "Oswego County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Otsego County": {
+        "id": "0500000US36077",
+        "County": "Otsego County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Wayne County": {
+        "id": "0500000US36117",
+        "County": "Wayne County",
+        "Other": "37548",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Albany County": {
+        "id": "0500000US36001",
+        "County": "Albany County",
+        "Other": "36309",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Broome County": {
+        "id": "0500000US36007",
+        "County": "Broome County",
+        "Other": "20128",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Erie County": {
+        "id": "0500000US36029",
+        "County": "Erie County",
+        "Other": "20377",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Madison County": {
+        "id": "0500000US36053",
+        "County": "Madison County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Sullivan County": {
+        "id": "0500000US36105",
+        "County": "Sullivan County",
+        "Other": "40369",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Genesee County": {
+        "id": "0500000US36037",
+        "County": "Genesee County",
+        "Other": "32028",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Orange County": {
+        "id": "0500000US36071",
+        "County": "Orange County",
+        "Other": "54055",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Bronx County": {
+        "id": "0500000US36005",
+        "County": "Bronx County",
+        "Other": "30790",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Fulton County": {
+        "id": "0500000US36035",
+        "County": "Fulton County",
+        "Other": "19737",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Rensselaer County": {
+        "id": "0500000US36083",
+        "County": "Rensselaer County",
+        "Other": "36356",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Dutchess County": {
+        "id": "0500000US36027",
+        "County": "Dutchess County",
+        "Other": "46866",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Herkimer County": {
+        "id": "0500000US36043",
+        "County": "Herkimer County",
+        "Other": "81094",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "St. Lawrence County": {
+        "id": "0500000US36089",
+        "County": "St. Lawrence County",
+        "Other": "55455",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Warren County": {
+        "id": "0500000US36113",
+        "County": "Warren County",
+        "Other": "14189",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Monroe County": {
+        "id": "0500000US36055",
+        "County": "Monroe County",
+        "Other": "31164",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Ulster County": {
+        "id": "0500000US36111",
+        "County": "Ulster County",
+        "Other": "38423",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Livingston County": {
+        "id": "0500000US36051",
+        "County": "Livingston County",
+        "Other": "36210",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Greene County": {
+        "id": "0500000US36039",
+        "County": "Greene County",
+        "Other": "61333",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Allegany County": {
+        "id": "0500000US36003",
+        "County": "Allegany County",
+        "Other": "-",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Cattaraugus County": {
+        "id": "0500000US36009",
+        "County": "Cattaraugus County",
+        "Other": "32450",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Schenectady County": {
+        "id": "0500000US36093",
+        "County": "Schenectady County",
+        "Other": "47321",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    },
+    "Yates County": {
+        "id": "0500000US36123",
+        "County": "Yates County",
+        "Other": "56250",
+        "TableReferenceId": "B19013F",
+        "CensusNotes ": "median income"
+    }
+}

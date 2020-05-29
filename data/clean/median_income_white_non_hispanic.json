@@ -1,0 +1,436 @@
+{
+    "Schoharie County": {
+        "id": "0500000US36095",
+        "County": "Schoharie County",
+        "White Non-Hispanic": "53701",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Onondaga County": {
+        "id": "0500000US36067",
+        "County": "Onondaga County",
+        "White Non-Hispanic": "65511",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Clinton County": {
+        "id": "0500000US36019",
+        "County": "Clinton County",
+        "White Non-Hispanic": "55525",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Seneca County": {
+        "id": "0500000US36099",
+        "County": "Seneca County",
+        "White Non-Hispanic": "55968",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Putnam County": {
+        "id": "0500000US36079",
+        "County": "Putnam County",
+        "White Non-Hispanic": "105244",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Franklin County": {
+        "id": "0500000US36033",
+        "County": "Franklin County",
+        "White Non-Hispanic": "52509",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Ontario County": {
+        "id": "0500000US36069",
+        "County": "Ontario County",
+        "White Non-Hispanic": "65262",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Queens County": {
+        "id": "0500000US36081",
+        "County": "Queens County",
+        "White Non-Hispanic": "74157",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Steuben County": {
+        "id": "0500000US36101",
+        "County": "Steuben County",
+        "White Non-Hispanic": "51375",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Hamilton County": {
+        "id": "0500000US36041",
+        "County": "Hamilton County",
+        "White Non-Hispanic": "57786",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Washington County": {
+        "id": "0500000US36115",
+        "County": "Washington County",
+        "White Non-Hispanic": "54032",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Chautauqua County": {
+        "id": "0500000US36013",
+        "County": "Chautauqua County",
+        "White Non-Hispanic": "47213",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Kings County": {
+        "id": "0500000US36047",
+        "County": "Kings County",
+        "White Non-Hispanic": "77250",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "New York County": {
+        "id": "0500000US36061",
+        "County": "New York County",
+        "White Non-Hispanic": "122852",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Tioga County": {
+        "id": "0500000US36107",
+        "County": "Tioga County",
+        "White Non-Hispanic": "61033",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Cayuga County": {
+        "id": "0500000US36011",
+        "County": "Cayuga County",
+        "White Non-Hispanic": "57605",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Orleans County": {
+        "id": "0500000US36073",
+        "County": "Orleans County",
+        "White Non-Hispanic": "52935",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Saratoga County": {
+        "id": "0500000US36091",
+        "County": "Saratoga County",
+        "White Non-Hispanic": "79828",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Rockland County": {
+        "id": "0500000US36087",
+        "County": "Rockland County",
+        "White Non-Hispanic": "95630",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Columbia County": {
+        "id": "0500000US36021",
+        "County": "Columbia County",
+        "White Non-Hispanic": "64987",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Lewis County": {
+        "id": "0500000US36049",
+        "County": "Lewis County",
+        "White Non-Hispanic": "52791",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Niagara County": {
+        "id": "0500000US36063",
+        "County": "Niagara County",
+        "White Non-Hispanic": "57741",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Westchester County": {
+        "id": "0500000US36119",
+        "County": "Westchester County",
+        "White Non-Hispanic": "115687",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Delaware County": {
+        "id": "0500000US36025",
+        "County": "Delaware County",
+        "White Non-Hispanic": "49285",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Essex County": {
+        "id": "0500000US36031",
+        "County": "Essex County",
+        "White Non-Hispanic": "56676",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Montgomery County": {
+        "id": "0500000US36057",
+        "County": "Montgomery County",
+        "White Non-Hispanic": "49543",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Nassau County": {
+        "id": "0500000US36059",
+        "County": "Nassau County",
+        "White Non-Hispanic": "117594",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Richmond County": {
+        "id": "0500000US36085",
+        "County": "Richmond County",
+        "White Non-Hispanic": "88906",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Schuyler County": {
+        "id": "0500000US36097",
+        "County": "Schuyler County",
+        "White Non-Hispanic": "51444",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Tompkins County": {
+        "id": "0500000US36109",
+        "County": "Tompkins County",
+        "White Non-Hispanic": "64672",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Chenango County": {
+        "id": "0500000US36017",
+        "County": "Chenango County",
+        "White Non-Hispanic": "50290",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Cortland County": {
+        "id": "0500000US36023",
+        "County": "Cortland County",
+        "White Non-Hispanic": "55240",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Jefferson County": {
+        "id": "0500000US36045",
+        "County": "Jefferson County",
+        "White Non-Hispanic": "53460",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Oneida County": {
+        "id": "0500000US36065",
+        "County": "Oneida County",
+        "White Non-Hispanic": "56959",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Suffolk County": {
+        "id": "0500000US36103",
+        "County": "Suffolk County",
+        "White Non-Hispanic": "101100",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Wyoming County": {
+        "id": "0500000US36121",
+        "County": "Wyoming County",
+        "White Non-Hispanic": "58194",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Chemung County": {
+        "id": "0500000US36015",
+        "County": "Chemung County",
+        "White Non-Hispanic": "54541",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Oswego County": {
+        "id": "0500000US36075",
+        "County": "Oswego County",
+        "White Non-Hispanic": "54257",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Otsego County": {
+        "id": "0500000US36077",
+        "County": "Otsego County",
+        "White Non-Hispanic": "53310",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Wayne County": {
+        "id": "0500000US36117",
+        "County": "Wayne County",
+        "White Non-Hispanic": "56222",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Albany County": {
+        "id": "0500000US36001",
+        "County": "Albany County",
+        "White Non-Hispanic": "73077",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Broome County": {
+        "id": "0500000US36007",
+        "County": "Broome County",
+        "White Non-Hispanic": "53621",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Erie County": {
+        "id": "0500000US36029",
+        "County": "Erie County",
+        "White Non-Hispanic": "63342",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Madison County": {
+        "id": "0500000US36053",
+        "County": "Madison County",
+        "White Non-Hispanic": "60005",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Sullivan County": {
+        "id": "0500000US36105",
+        "County": "Sullivan County",
+        "White Non-Hispanic": "60099",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Genesee County": {
+        "id": "0500000US36037",
+        "County": "Genesee County",
+        "White Non-Hispanic": "62709",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Orange County": {
+        "id": "0500000US36071",
+        "County": "Orange County",
+        "White Non-Hispanic": "81929",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Bronx County": {
+        "id": "0500000US36005",
+        "County": "Bronx County",
+        "White Non-Hispanic": "62230",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Fulton County": {
+        "id": "0500000US36035",
+        "County": "Fulton County",
+        "White Non-Hispanic": "50449",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Rensselaer County": {
+        "id": "0500000US36083",
+        "County": "Rensselaer County",
+        "White Non-Hispanic": "69445",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Dutchess County": {
+        "id": "0500000US36027",
+        "County": "Dutchess County",
+        "White Non-Hispanic": "81752",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Herkimer County": {
+        "id": "0500000US36043",
+        "County": "Herkimer County",
+        "White Non-Hispanic": "52386",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "St. Lawrence County": {
+        "id": "0500000US36089",
+        "County": "St. Lawrence County",
+        "White Non-Hispanic": "49317",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Warren County": {
+        "id": "0500000US36113",
+        "County": "Warren County",
+        "White Non-Hispanic": "60239",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Monroe County": {
+        "id": "0500000US36055",
+        "County": "Monroe County",
+        "White Non-Hispanic": "66410",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Ulster County": {
+        "id": "0500000US36111",
+        "County": "Ulster County",
+        "White Non-Hispanic": "66386",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Livingston County": {
+        "id": "0500000US36051",
+        "County": "Livingston County",
+        "White Non-Hispanic": "57130",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Greene County": {
+        "id": "0500000US36039",
+        "County": "Greene County",
+        "White Non-Hispanic": "53579",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Allegany County": {
+        "id": "0500000US36003",
+        "County": "Allegany County",
+        "White Non-Hispanic": "47271",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Cattaraugus County": {
+        "id": "0500000US36009",
+        "County": "Cattaraugus County",
+        "White Non-Hispanic": "48269",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Schenectady County": {
+        "id": "0500000US36093",
+        "County": "Schenectady County",
+        "White Non-Hispanic": "69733",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    },
+    "Yates County": {
+        "id": "0500000US36123",
+        "County": "Yates County",
+        "White Non-Hispanic": "55069",
+        "TableReferenceId": "B19013H",
+        "CensusNotes ": "median"
+    }
+}
