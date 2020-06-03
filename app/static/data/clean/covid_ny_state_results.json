@@ -1,0 +1,625 @@
+{
+    "2020-03-12": {
+        "testdate": "2020-03-12",
+        "newpositives": "102",
+        "cumulativepositives": "353",
+        "newtests": "762",
+        "cumulativetests": "2836"
+    },
+    "2020-03-10": {
+        "testdate": "2020-03-10",
+        "newpositives": "44",
+        "cumulativepositives": "195",
+        "newtests": "425",
+        "cumulativetests": "1521"
+    },
+    "2020-03-07": {
+        "testdate": "2020-03-07",
+        "newpositives": "24",
+        "cumulativepositives": "60",
+        "newtests": "200",
+        "cumulativetests": "388"
+    },
+    "2020-04-06": {
+        "testdate": "2020-04-06",
+        "newpositives": "8174",
+        "cumulativepositives": "138863",
+        "newtests": "19247",
+        "cumulativetests": "340058"
+    },
+    "2020-05-28": {
+        "testdate": "2020-05-28",
+        "newpositives": "1551",
+        "cumulativepositives": "368284",
+        "newtests": "67341",
+        "cumulativetests": "1944130"
+    },
+    "2020-05-03": {
+        "testdate": "2020-05-03",
+        "newpositives": "2538",
+        "cumulativepositives": "318953",
+        "newtests": "21399",
+        "cumulativetests": "1007310"
+    },
+    "2020-03-20": {
+        "testdate": "2020-03-20",
+        "newpositives": "3254",
+        "cumulativepositives": "10356",
+        "newtests": "13087",
+        "cumulativetests": "45724"
+    },
+    "2020-05-26": {
+        "testdate": "2020-05-26",
+        "newpositives": "1129",
+        "cumulativepositives": "364965",
+        "newtests": "37416",
+        "cumulativetests": "1811544"
+    },
+    "2020-03-03": {
+        "testdate": "2020-03-03",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "9",
+        "cumulativetests": "10"
+    },
+    "2020-03-19": {
+        "testdate": "2020-03-19",
+        "newpositives": "2950",
+        "cumulativepositives": "7102",
+        "newtests": "10124",
+        "cumulativetests": "32637"
+    },
+    "2020-05-23": {
+        "testdate": "2020-05-23",
+        "newpositives": "1589",
+        "cumulativepositives": "361515",
+        "newtests": "47765",
+        "cumulativetests": "1699826"
+    },
+    "2020-03-30": {
+        "testdate": "2020-03-30",
+        "newpositives": "9298",
+        "cumulativepositives": "75795",
+        "newtests": "18648",
+        "cumulativetests": "205233"
+    },
+    "2020-05-11": {
+        "testdate": "2020-05-11",
+        "newpositives": "1430",
+        "cumulativepositives": "338485",
+        "newtests": "20463",
+        "cumulativetests": "1225113"
+    },
+    "2020-04-25": {
+        "testdate": "2020-04-25",
+        "newpositives": "5902",
+        "cumulativepositives": "288045",
+        "newtests": "27782",
+        "cumulativetests": "805350"
+    },
+    "2020-04-17": {
+        "testdate": "2020-04-17",
+        "newpositives": "7090",
+        "cumulativepositives": "236732",
+        "newtests": "23309",
+        "cumulativetests": "596532"
+    },
+    "2020-05-21": {
+        "testdate": "2020-05-21",
+        "newpositives": "1696",
+        "cumulativepositives": "358154",
+        "newtests": "45738",
+        "cumulativetests": "1600793"
+    },
+    "2020-04-11": {
+        "testdate": "2020-04-11",
+        "newpositives": "8236",
+        "cumulativepositives": "188694",
+        "newtests": "20621",
+        "cumulativetests": "461601"
+    },
+    "2020-04-20": {
+        "testdate": "2020-04-20",
+        "newpositives": "4178",
+        "cumulativepositives": "251690",
+        "newtests": "15464",
+        "cumulativetests": "649325"
+    },
+    "2020-05-04": {
+        "testdate": "2020-05-04",
+        "newpositives": "2239",
+        "cumulativepositives": "321192",
+        "newtests": "21589",
+        "cumulativetests": "1028899"
+    },
+    "2020-05-05": {
+        "testdate": "2020-05-05",
+        "newpositives": "2786",
+        "cumulativepositives": "323978",
+        "newtests": "27022",
+        "cumulativetests": "1055921"
+    },
+    "2020-03-13": {
+        "testdate": "2020-03-13",
+        "newpositives": "164",
+        "cumulativepositives": "517",
+        "newtests": "1290",
+        "cumulativetests": "4126"
+    },
+    "2020-04-12": {
+        "testdate": "2020-04-12",
+        "newpositives": "6337",
+        "cumulativepositives": "195031",
+        "newtests": "16756",
+        "cumulativetests": "478357"
+    },
+    "2020-05-01": {
+        "testdate": "2020-05-01",
+        "newpositives": "4663",
+        "cumulativepositives": "312977",
+        "newtests": "31579",
+        "cumulativetests": "959017"
+    },
+    "2020-03-08": {
+        "testdate": "2020-03-08",
+        "newpositives": "28",
+        "cumulativepositives": "88",
+        "newtests": "307",
+        "cumulativetests": "695"
+    },
+    "2020-05-22": {
+        "testdate": "2020-05-22",
+        "newpositives": "1772",
+        "cumulativepositives": "359926",
+        "newtests": "51268",
+        "cumulativetests": "1652061"
+    },
+    "2020-03-11": {
+        "testdate": "2020-03-11",
+        "newpositives": "56",
+        "cumulativepositives": "251",
+        "newtests": "553",
+        "cumulativetests": "2074"
+    },
+    "2020-05-19": {
+        "testdate": "2020-05-19",
+        "newpositives": "1525",
+        "cumulativepositives": "354370",
+        "newtests": "38097",
+        "cumulativetests": "1505836"
+    },
+    "2020-05-08": {
+        "testdate": "2020-05-08",
+        "newpositives": "2715",
+        "cumulativepositives": "333122",
+        "newtests": "32225",
+        "cumulativetests": "1153768"
+    },
+    "2020-03-09": {
+        "testdate": "2020-03-09",
+        "newpositives": "63",
+        "cumulativepositives": "151",
+        "newtests": "401",
+        "cumulativetests": "1096"
+    },
+    "2020-03-27": {
+        "testdate": "2020-03-27",
+        "newpositives": "7681",
+        "cumulativepositives": "52318",
+        "newtests": "17444",
+        "cumulativetests": "156069"
+    },
+    "2020-04-22": {
+        "testdate": "2020-04-22",
+        "newpositives": "6244",
+        "cumulativepositives": "263460",
+        "newtests": "25938",
+        "cumulativetests": "695920"
+    },
+    "2020-03-31": {
+        "testdate": "2020-03-31",
+        "newpositives": "7917",
+        "cumulativepositives": "83712",
+        "newtests": "15701",
+        "cumulativetests": "220934"
+    },
+    "2020-04-19": {
+        "testdate": "2020-04-19",
+        "newpositives": "4726",
+        "cumulativepositives": "247512",
+        "newtests": "16306",
+        "cumulativetests": "633861"
+    },
+    "2020-05-12": {
+        "testdate": "2020-05-12",
+        "newpositives": "2176",
+        "cumulativepositives": "340661",
+        "newtests": "33794",
+        "cumulativetests": "1258907"
+    },
+    "2020-03-17": {
+        "testdate": "2020-03-17",
+        "newpositives": "1009",
+        "cumulativepositives": "2383",
+        "newtests": "4553",
+        "cumulativetests": "14815"
+    },
+    "2020-05-25": {
+        "testdate": "2020-05-25",
+        "newpositives": "1072",
+        "cumulativepositives": "363836",
+        "newtests": "34679",
+        "cumulativetests": "1774128"
+    },
+    "2020-03-29": {
+        "testdate": "2020-03-29",
+        "newpositives": "6984",
+        "cumulativepositives": "66497",
+        "newtests": "14115",
+        "cumulativetests": "186585"
+    },
+    "2020-05-15": {
+        "testdate": "2020-05-15",
+        "newpositives": "2419",
+        "cumulativepositives": "348232",
+        "newtests": "40669",
+        "cumulativetests": "1378717"
+    },
+    "2020-03-05": {
+        "testdate": "2020-03-05",
+        "newpositives": "22",
+        "cumulativepositives": "25",
+        "newtests": "92",
+        "cumulativetests": "122"
+    },
+    "2020-04-01": {
+        "testdate": "2020-04-01",
+        "newpositives": "8669",
+        "cumulativepositives": "92381",
+        "newtests": "18031",
+        "cumulativetests": "238965"
+    },
+    "2020-05-14": {
+        "testdate": "2020-05-14",
+        "newpositives": "2762",
+        "cumulativepositives": "345813",
+        "newtests": "39291",
+        "cumulativetests": "1338048"
+    },
+    "2020-03-14": {
+        "testdate": "2020-03-14",
+        "newpositives": "131",
+        "cumulativepositives": "648",
+        "newtests": "1293",
+        "cumulativetests": "5419"
+    },
+    "2020-04-24": {
+        "testdate": "2020-04-24",
+        "newpositives": "10553",
+        "cumulativepositives": "282143",
+        "newtests": "46912",
+        "cumulativetests": "777568"
+    },
+    "2020-04-18": {
+        "testdate": "2020-04-18",
+        "newpositives": "6054",
+        "cumulativepositives": "242786",
+        "newtests": "21023",
+        "cumulativetests": "617555"
+    },
+    "2020-04-26": {
+        "testdate": "2020-04-26",
+        "newpositives": "3951",
+        "cumulativepositives": "291996",
+        "newtests": "20745",
+        "cumulativetests": "826095"
+    },
+    "2020-04-29": {
+        "testdate": "2020-04-29",
+        "newpositives": "4681",
+        "cumulativepositives": "304372",
+        "newtests": "28155",
+        "cumulativetests": "900636"
+    },
+    "2020-03-23": {
+        "testdate": "2020-03-23",
+        "newpositives": "4790",
+        "cumulativepositives": "25665",
+        "newtests": "12952",
+        "cumulativetests": "91517"
+    },
+    "2020-04-13": {
+        "testdate": "2020-04-13",
+        "newpositives": "7177",
+        "cumulativepositives": "202208",
+        "newtests": "20786",
+        "cumulativetests": "499143"
+    },
+    "2020-04-23": {
+        "testdate": "2020-04-23",
+        "newpositives": "8130",
+        "cumulativepositives": "271590",
+        "newtests": "34736",
+        "cumulativetests": "730656"
+    },
+    "2020-05-29": {
+        "testdate": "2020-05-29",
+        "newpositives": "1376",
+        "cumulativepositives": "369660",
+        "newtests": "61251",
+        "cumulativetests": "2005381"
+    },
+    "2020-03-24": {
+        "testdate": "2020-03-24",
+        "newpositives": "5145",
+        "cumulativepositives": "30810",
+        "newtests": "12142",
+        "cumulativetests": "103659"
+    },
+    "2020-05-24": {
+        "testdate": "2020-05-24",
+        "newpositives": "1249",
+        "cumulativepositives": "362764",
+        "newtests": "39623",
+        "cumulativetests": "1739449"
+    },
+    "2020-05-10": {
+        "testdate": "2020-05-10",
+        "newpositives": "1660",
+        "cumulativepositives": "337055",
+        "newtests": "21652",
+        "cumulativetests": "1204650"
+    },
+    "2020-04-05": {
+        "testdate": "2020-04-05",
+        "newpositives": "8658",
+        "cumulativepositives": "130689",
+        "newtests": "18531",
+        "cumulativetests": "320811"
+    },
+    "2020-05-06": {
+        "testdate": "2020-05-06",
+        "newpositives": "3491",
+        "cumulativepositives": "327469",
+        "newtests": "33995",
+        "cumulativetests": "1089916"
+    },
+    "2020-04-15": {
+        "testdate": "2020-04-15",
+        "newpositives": "8505",
+        "cumulativepositives": "222284",
+        "newtests": "24567",
+        "cumulativetests": "550579"
+    },
+    "2020-03-18": {
+        "testdate": "2020-03-18",
+        "newpositives": "1769",
+        "cumulativepositives": "4152",
+        "newtests": "7698",
+        "cumulativetests": "22513"
+    },
+    "2020-05-07": {
+        "testdate": "2020-05-07",
+        "newpositives": "2938",
+        "cumulativepositives": "330407",
+        "newtests": "31627",
+        "cumulativetests": "1121543"
+    },
+    "2020-05-17": {
+        "testdate": "2020-05-17",
+        "newpositives": "1250",
+        "cumulativepositives": "351371",
+        "newtests": "26161",
+        "cumulativetests": "1439557"
+    },
+    "2020-04-14": {
+        "testdate": "2020-04-14",
+        "newpositives": "11571",
+        "cumulativepositives": "213779",
+        "newtests": "26869",
+        "cumulativetests": "526012"
+    },
+    "2020-05-13": {
+        "testdate": "2020-05-13",
+        "newpositives": "2390",
+        "cumulativepositives": "343051",
+        "newtests": "39850",
+        "cumulativetests": "1298757"
+    },
+    "2020-04-02": {
+        "testdate": "2020-04-02",
+        "newpositives": "10482",
+        "cumulativepositives": "102863",
+        "newtests": "21555",
+        "cumulativetests": "260520"
+    },
+    "2020-04-07": {
+        "testdate": "2020-04-07",
+        "newpositives": "10453",
+        "cumulativepositives": "149316",
+        "newtests": "25095",
+        "cumulativetests": "365153"
+    },
+    "2020-04-28": {
+        "testdate": "2020-04-28",
+        "newpositives": "4585",
+        "cumulativepositives": "299691",
+        "newtests": "27487",
+        "cumulativetests": "872481"
+    },
+    "2020-05-18": {
+        "testdate": "2020-05-18",
+        "newpositives": "1474",
+        "cumulativepositives": "352845",
+        "newtests": "28182",
+        "cumulativetests": "1467739"
+    },
+    "2020-05-20": {
+        "testdate": "2020-05-20",
+        "newpositives": "2088",
+        "cumulativepositives": "356458",
+        "newtests": "49219",
+        "cumulativetests": "1555055"
+    },
+    "2020-04-04": {
+        "testdate": "2020-04-04",
+        "newpositives": "8327",
+        "cumulativepositives": "122031",
+        "newtests": "18659",
+        "cumulativetests": "302280"
+    },
+    "2020-04-16": {
+        "testdate": "2020-04-16",
+        "newpositives": "7358",
+        "cumulativepositives": "229642",
+        "newtests": "22644",
+        "cumulativetests": "573223"
+    },
+    "2020-05-02": {
+        "testdate": "2020-05-02",
+        "newpositives": "3438",
+        "cumulativepositives": "316415",
+        "newtests": "26894",
+        "cumulativetests": "985911"
+    },
+    "2020-03-15": {
+        "testdate": "2020-03-15",
+        "newpositives": "294",
+        "cumulativepositives": "942",
+        "newtests": "1936",
+        "cumulativetests": "7355"
+    },
+    "2020-04-21": {
+        "testdate": "2020-04-21",
+        "newpositives": "5526",
+        "cumulativepositives": "257216",
+        "newtests": "20657",
+        "cumulativetests": "669982"
+    },
+    "2020-03-28": {
+        "testdate": "2020-03-28",
+        "newpositives": "7195",
+        "cumulativepositives": "59513",
+        "newtests": "16401",
+        "cumulativetests": "172470"
+    },
+    "2020-04-30": {
+        "testdate": "2020-04-30",
+        "newpositives": "3942",
+        "cumulativepositives": "308314",
+        "newtests": "26802",
+        "cumulativetests": "927438"
+    },
+    "2020-03-02": {
+        "testdate": "2020-03-02",
+        "newpositives": "1",
+        "cumulativepositives": "1",
+        "newtests": "1",
+        "cumulativetests": "1"
+    },
+    "2020-03-06": {
+        "testdate": "2020-03-06",
+        "newpositives": "11",
+        "cumulativepositives": "36",
+        "newtests": "66",
+        "cumulativetests": "188"
+    },
+    "2020-05-27": {
+        "testdate": "2020-05-27",
+        "newpositives": "1768",
+        "cumulativepositives": "366733",
+        "newtests": "65245",
+        "cumulativetests": "1876789"
+    },
+    "2020-03-04": {
+        "testdate": "2020-03-04",
+        "newpositives": "2",
+        "cumulativepositives": "3",
+        "newtests": "20",
+        "cumulativetests": "30"
+    },
+    "2020-04-09": {
+        "testdate": "2020-04-09",
+        "newpositives": "10575",
+        "cumulativepositives": "170512",
+        "newtests": "26336",
+        "cumulativetests": "417885"
+    },
+    "2020-04-10": {
+        "testdate": "2020-04-10",
+        "newpositives": "9946",
+        "cumulativepositives": "180458",
+        "newtests": "23095",
+        "cumulativetests": "440980"
+    },
+    "2020-05-09": {
+        "testdate": "2020-05-09",
+        "newpositives": "2273",
+        "cumulativepositives": "335395",
+        "newtests": "29230",
+        "cumulativetests": "1182998"
+    },
+    "2020-03-16": {
+        "testdate": "2020-03-16",
+        "newpositives": "432",
+        "cumulativepositives": "1374",
+        "newtests": "2907",
+        "cumulativetests": "10262"
+    },
+    "2020-03-21": {
+        "testdate": "2020-03-21",
+        "newpositives": "4812",
+        "cumulativepositives": "15168",
+        "newtests": "16029",
+        "cumulativetests": "61753"
+    },
+    "2020-04-03": {
+        "testdate": "2020-04-03",
+        "newpositives": "10841",
+        "cumulativepositives": "113704",
+        "newtests": "23101",
+        "cumulativetests": "283621"
+    },
+    "2020-05-16": {
+        "testdate": "2020-05-16",
+        "newpositives": "1889",
+        "cumulativepositives": "350121",
+        "newtests": "34679",
+        "cumulativetests": "1413396"
+    },
+    "2020-04-27": {
+        "testdate": "2020-04-27",
+        "newpositives": "3110",
+        "cumulativepositives": "295106",
+        "newtests": "18899",
+        "cumulativetests": "844994"
+    },
+    "2020-03-22": {
+        "testdate": "2020-03-22",
+        "newpositives": "5707",
+        "cumulativepositives": "20875",
+        "newtests": "16812",
+        "cumulativetests": "78565"
+    },
+    "2020-04-08": {
+        "testdate": "2020-04-08",
+        "newpositives": "10621",
+        "cumulativepositives": "159937",
+        "newtests": "26396",
+        "cumulativetests": "391549"
+    },
+    "2020-03-25": {
+        "testdate": "2020-03-25",
+        "newpositives": "6448",
+        "cumulativepositives": "37258",
+        "newtests": "18651",
+        "cumulativetests": "122310"
+    },
+    "2020-03-26": {
+        "testdate": "2020-03-26",
+        "newpositives": "7379",
+        "cumulativepositives": "44637",
+        "newtests": "16315",
+        "cumulativetests": "138625"
+    }
+}

@@ -1,0 +1,714 @@
+{
+    "2020-05-29": {
+        "testdate": "2020-05-29",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "39",
+        "newtests": "31",
+        "cumulativetests": "1261"
+    },
+    "2020-05-28": {
+        "testdate": "2020-05-28",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "39",
+        "newtests": "130",
+        "cumulativetests": "1230"
+    },
+    "2020-05-27": {
+        "testdate": "2020-05-27",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "39",
+        "newtests": "50",
+        "cumulativetests": "1100"
+    },
+    "2020-05-26": {
+        "testdate": "2020-05-26",
+        "county": "Yates County",
+        "newpositives": "2",
+        "cumulativepositives": "39",
+        "newtests": "28",
+        "cumulativetests": "1050"
+    },
+    "2020-05-25": {
+        "testdate": "2020-05-25",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "37",
+        "newtests": "67",
+        "cumulativetests": "1022"
+    },
+    "2020-05-24": {
+        "testdate": "2020-05-24",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "37",
+        "newtests": "28",
+        "cumulativetests": "955"
+    },
+    "2020-05-23": {
+        "testdate": "2020-05-23",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "37",
+        "newtests": "58",
+        "cumulativetests": "927"
+    },
+    "2020-05-22": {
+        "testdate": "2020-05-22",
+        "county": "Yates County",
+        "newpositives": "3",
+        "cumulativepositives": "37",
+        "newtests": "22",
+        "cumulativetests": "869"
+    },
+    "2020-05-21": {
+        "testdate": "2020-05-21",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "34",
+        "newtests": "107",
+        "cumulativetests": "847"
+    },
+    "2020-05-20": {
+        "testdate": "2020-05-20",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "34",
+        "newtests": "62",
+        "cumulativetests": "740"
+    },
+    "2020-05-19": {
+        "testdate": "2020-05-19",
+        "county": "Yates County",
+        "newpositives": "8",
+        "cumulativepositives": "34",
+        "newtests": "67",
+        "cumulativetests": "678"
+    },
+    "2020-05-18": {
+        "testdate": "2020-05-18",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "26",
+        "newtests": "25",
+        "cumulativetests": "611"
+    },
+    "2020-05-17": {
+        "testdate": "2020-05-17",
+        "county": "Yates County",
+        "newpositives": "2",
+        "cumulativepositives": "25",
+        "newtests": "22",
+        "cumulativetests": "586"
+    },
+    "2020-05-16": {
+        "testdate": "2020-05-16",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "23",
+        "newtests": "14",
+        "cumulativetests": "564"
+    },
+    "2020-05-15": {
+        "testdate": "2020-05-15",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "22",
+        "newtests": "15",
+        "cumulativetests": "550"
+    },
+    "2020-05-14": {
+        "testdate": "2020-05-14",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "22",
+        "newtests": "16",
+        "cumulativetests": "535"
+    },
+    "2020-05-13": {
+        "testdate": "2020-05-13",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "22",
+        "newtests": "51",
+        "cumulativetests": "519"
+    },
+    "2020-05-12": {
+        "testdate": "2020-05-12",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "22",
+        "newtests": "23",
+        "cumulativetests": "468"
+    },
+    "2020-05-11": {
+        "testdate": "2020-05-11",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "21",
+        "newtests": "15",
+        "cumulativetests": "445"
+    },
+    "2020-05-10": {
+        "testdate": "2020-05-10",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "21",
+        "newtests": "15",
+        "cumulativetests": "430"
+    },
+    "2020-05-09": {
+        "testdate": "2020-05-09",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "21",
+        "newtests": "27",
+        "cumulativetests": "415"
+    },
+    "2020-05-08": {
+        "testdate": "2020-05-08",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "20",
+        "newtests": "24",
+        "cumulativetests": "388"
+    },
+    "2020-05-07": {
+        "testdate": "2020-05-07",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "20",
+        "newtests": "12",
+        "cumulativetests": "364"
+    },
+    "2020-05-06": {
+        "testdate": "2020-05-06",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "19",
+        "newtests": "13",
+        "cumulativetests": "352"
+    },
+    "2020-05-05": {
+        "testdate": "2020-05-05",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "19",
+        "newtests": "13",
+        "cumulativetests": "339"
+    },
+    "2020-05-04": {
+        "testdate": "2020-05-04",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "19",
+        "newtests": "7",
+        "cumulativetests": "326"
+    },
+    "2020-05-03": {
+        "testdate": "2020-05-03",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "19",
+        "newtests": "9",
+        "cumulativetests": "319"
+    },
+    "2020-05-02": {
+        "testdate": "2020-05-02",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "19",
+        "newtests": "23",
+        "cumulativetests": "310"
+    },
+    "2020-05-01": {
+        "testdate": "2020-05-01",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "18",
+        "newtests": "13",
+        "cumulativetests": "287"
+    },
+    "2020-04-30": {
+        "testdate": "2020-04-30",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "18",
+        "newtests": "12",
+        "cumulativetests": "274"
+    },
+    "2020-04-29": {
+        "testdate": "2020-04-29",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "18",
+        "newtests": "10",
+        "cumulativetests": "262"
+    },
+    "2020-04-28": {
+        "testdate": "2020-04-28",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "17",
+        "newtests": "8",
+        "cumulativetests": "252"
+    },
+    "2020-04-27": {
+        "testdate": "2020-04-27",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "17",
+        "newtests": "3",
+        "cumulativetests": "244"
+    },
+    "2020-04-26": {
+        "testdate": "2020-04-26",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "17",
+        "newtests": "3",
+        "cumulativetests": "241"
+    },
+    "2020-04-25": {
+        "testdate": "2020-04-25",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "17",
+        "newtests": "4",
+        "cumulativetests": "238"
+    },
+    "2020-04-24": {
+        "testdate": "2020-04-24",
+        "county": "Yates County",
+        "newpositives": "5",
+        "cumulativepositives": "16",
+        "newtests": "41",
+        "cumulativetests": "234"
+    },
+    "2020-04-23": {
+        "testdate": "2020-04-23",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "11",
+        "newtests": "5",
+        "cumulativetests": "193"
+    },
+    "2020-04-22": {
+        "testdate": "2020-04-22",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "11",
+        "newtests": "8",
+        "cumulativetests": "188"
+    },
+    "2020-04-21": {
+        "testdate": "2020-04-21",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "11",
+        "newtests": "1",
+        "cumulativetests": "180"
+    },
+    "2020-04-20": {
+        "testdate": "2020-04-20",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "10",
+        "newtests": "1",
+        "cumulativetests": "179"
+    },
+    "2020-04-19": {
+        "testdate": "2020-04-19",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "10",
+        "newtests": "13",
+        "cumulativetests": "178"
+    },
+    "2020-04-18": {
+        "testdate": "2020-04-18",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "9",
+        "newtests": "2",
+        "cumulativetests": "165"
+    },
+    "2020-04-17": {
+        "testdate": "2020-04-17",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "9",
+        "newtests": "28",
+        "cumulativetests": "163"
+    },
+    "2020-04-16": {
+        "testdate": "2020-04-16",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "8",
+        "newtests": "10",
+        "cumulativetests": "135"
+    },
+    "2020-04-15": {
+        "testdate": "2020-04-15",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "7",
+        "newtests": "2",
+        "cumulativetests": "125"
+    },
+    "2020-04-14": {
+        "testdate": "2020-04-14",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "6",
+        "newtests": "5",
+        "cumulativetests": "123"
+    },
+    "2020-04-13": {
+        "testdate": "2020-04-13",
+        "county": "Yates County",
+        "newpositives": "2",
+        "cumulativepositives": "6",
+        "newtests": "5",
+        "cumulativetests": "118"
+    },
+    "2020-04-12": {
+        "testdate": "2020-04-12",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "4",
+        "newtests": "4",
+        "cumulativetests": "113"
+    },
+    "2020-04-11": {
+        "testdate": "2020-04-11",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "3",
+        "newtests": "6",
+        "cumulativetests": "109"
+    },
+    "2020-04-10": {
+        "testdate": "2020-04-10",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "2",
+        "newtests": "5",
+        "cumulativetests": "103"
+    },
+    "2020-04-09": {
+        "testdate": "2020-04-09",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "2",
+        "newtests": "3",
+        "cumulativetests": "98"
+    },
+    "2020-04-08": {
+        "testdate": "2020-04-08",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "7",
+        "cumulativetests": "95"
+    },
+    "2020-04-07": {
+        "testdate": "2020-04-07",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "5",
+        "cumulativetests": "88"
+    },
+    "2020-04-06": {
+        "testdate": "2020-04-06",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "3",
+        "cumulativetests": "83"
+    },
+    "2020-04-05": {
+        "testdate": "2020-04-05",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "2",
+        "cumulativetests": "80"
+    },
+    "2020-04-04": {
+        "testdate": "2020-04-04",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "6",
+        "cumulativetests": "78"
+    },
+    "2020-04-03": {
+        "testdate": "2020-04-03",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "3",
+        "cumulativetests": "72"
+    },
+    "2020-04-02": {
+        "testdate": "2020-04-02",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "1",
+        "newtests": "7",
+        "cumulativetests": "69"
+    },
+    "2020-04-01": {
+        "testdate": "2020-04-01",
+        "county": "Yates County",
+        "newpositives": "1",
+        "cumulativepositives": "1",
+        "newtests": "8",
+        "cumulativetests": "62"
+    },
+    "2020-03-31": {
+        "testdate": "2020-03-31",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "7",
+        "cumulativetests": "54"
+    },
+    "2020-03-30": {
+        "testdate": "2020-03-30",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "3",
+        "cumulativetests": "47"
+    },
+    "2020-03-29": {
+        "testdate": "2020-03-29",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "2",
+        "cumulativetests": "44"
+    },
+    "2020-03-28": {
+        "testdate": "2020-03-28",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "7",
+        "cumulativetests": "42"
+    },
+    "2020-03-27": {
+        "testdate": "2020-03-27",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "10",
+        "cumulativetests": "35"
+    },
+    "2020-03-26": {
+        "testdate": "2020-03-26",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "2",
+        "cumulativetests": "25"
+    },
+    "2020-03-25": {
+        "testdate": "2020-03-25",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "1",
+        "cumulativetests": "23"
+    },
+    "2020-03-24": {
+        "testdate": "2020-03-24",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "3",
+        "cumulativetests": "22"
+    },
+    "2020-03-23": {
+        "testdate": "2020-03-23",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "3",
+        "cumulativetests": "19"
+    },
+    "2020-03-22": {
+        "testdate": "2020-03-22",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "3",
+        "cumulativetests": "16"
+    },
+    "2020-03-21": {
+        "testdate": "2020-03-21",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "3",
+        "cumulativetests": "13"
+    },
+    "2020-03-20": {
+        "testdate": "2020-03-20",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "2",
+        "cumulativetests": "10"
+    },
+    "2020-03-19": {
+        "testdate": "2020-03-19",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "1",
+        "cumulativetests": "8"
+    },
+    "2020-03-18": {
+        "testdate": "2020-03-18",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "3",
+        "cumulativetests": "7"
+    },
+    "2020-03-17": {
+        "testdate": "2020-03-17",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "4"
+    },
+    "2020-03-16": {
+        "testdate": "2020-03-16",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "4"
+    },
+    "2020-03-15": {
+        "testdate": "2020-03-15",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "1",
+        "cumulativetests": "4"
+    },
+    "2020-03-14": {
+        "testdate": "2020-03-14",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "2",
+        "cumulativetests": "3"
+    },
+    "2020-03-13": {
+        "testdate": "2020-03-13",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "1",
+        "cumulativetests": "1"
+    },
+    "2020-03-12": {
+        "testdate": "2020-03-12",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-11": {
+        "testdate": "2020-03-11",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-10": {
+        "testdate": "2020-03-10",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-09": {
+        "testdate": "2020-03-09",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-08": {
+        "testdate": "2020-03-08",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-07": {
+        "testdate": "2020-03-07",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-06": {
+        "testdate": "2020-03-06",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-05": {
+        "testdate": "2020-03-05",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-04": {
+        "testdate": "2020-03-04",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-03": {
+        "testdate": "2020-03-03",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    },
+    "2020-03-02": {
+        "testdate": "2020-03-02",
+        "county": "Yates County",
+        "newpositives": "0",
+        "cumulativepositives": "0",
+        "newtests": "0",
+        "cumulativetests": "0"
+    }
+}

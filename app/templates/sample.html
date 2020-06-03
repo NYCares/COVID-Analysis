@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/Chart.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="myDoughnutChart" class="chartjs"> </canvas>
+    <canvas id="myBarChart" class="chartjs"></canvas>
+    <canvas id="myStackedBarChart" class="chartjs"></canvas>
+    <canvas id="barChartHorizontal"></canvas>
+    <script>
+      // And for a doughnut chart
+      var ctx = document.getElementById('myDoughnutChart').getContext('2d');
+      var myDoughnutChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          datasets: [
+            {
+              data: [10, 20, 30],
+              backgroundColor: ['#FF6384', '#63FF84', '#84FF63'],
+            },
+          ],
+
+          legend: {
+            position: 'left',
+          },
+          animation: {
+            animateRotate: false,
+            animateScale: true,
+          },
+
+          // These labels appear in the legend and in the tooltips when hovering different arcs
+          labels: ['Red', 'Yellow', 'Blue'],
+        },
+      });
+
+      var densityData = {
+        label: 'Density of Planets (kg/m3)',
+        data: [5427, 5243, 5514, 3933, 1326, 687, 1271, 1638],
+      };
+
+      var ctx = document.getElementById('myBarChart').getContext('2d');
+
+      // Bar Chart
+      var myBarChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: [
+            'Mercury',
+            'Venus',
+            'Earth',
+            'Mars',
+            'Jupiter',
+            'Saturn',
+            'Uranus',
+            'Neptune',
+          ],
+          datasets: [densityData],
+        },
+      });
+
+      // Stacked Bar Chart
+
+      var densityData = {
+        label: 'Density of Planets (kg/m3)',
+        data: [5427, 5243, 5514, 3933, 1326, 687, 1271, 1638],
+      };
+
+      // Bar Chart
+      var ctx = document.getElementById('myStackedBarChart').getContext('2d');
+
+      var myStackedBarChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Risk Level'],
+          datasets: [
+            {
+              label: 'Lunch Program',
+              data: [67.8],
+              backgroundColor: '#D6E9C6',
+            },
+            {
+              label: 'Not On Program',
+              data: [20.7],
+              backgroundColor: '#FAEBCC',
+            },
+          ],
+        },
+        options: {
+          scales: {
+            xAxes: [{ stacked: true }],
+            yAxes: [{ stacked: true }],
+          },
+        },
+      });
+      var ctx = document.getElementById('barChartHorizontal').getContext('2d');
+      var barChartHorizontal = new Chart(ctx, {
+        type: 'horizontalBar',
+        data: {
+          labels: ['Asian', 'White', 'Native American', 'Hispanic', 'Black'],
+          datasets: [
+            {
+              label: 'Population (millions)',
+              backgroundColor: [
+                '#3e95cd',
+                '#8e5ea2',
+                '#3cba9f',
+                '#e8c3b9',
+                '#c45850',
+              ],
+              data: [2478, 5267, 734, 784, 433],
+            },
+          ],
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Median Income by Race',
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

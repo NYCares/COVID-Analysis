@@ -1,6 +1,6 @@
 {
-    "Statewide Unallocated": {
-        "\u00ef\u00bb\u00bfID": "0500000US36NYS",
+    "0500000US36NYS": {
+        "id": "0500000US36NYS",
         "County": "Statewide Unallocated",
         "State": "NY",
         "Date": "5/22/2020",
@@ -8,11 +8,11 @@
         "Deaths": "90",
         "Cases": "69",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "New York City Unallocated": {
-        "\u00ef\u00bb\u00bfID": "0500000US36NYC",
+    "0500000US36NYC": {
+        "id": "0500000US36NYC",
         "County": "New York City Unallocated",
         "State": "NY",
         "Date": "5/22/2020",
@@ -20,11 +20,11 @@
         "Deaths": "310",
         "Cases": "0",
         "% of Population": "0",
-        "% or Deaths": "1",
+        "% of Deaths": "1",
         "% of Cases": "0"
     },
-    "Albany County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36001",
+    "0500000US36001": {
+        "id": "0500000US36001",
         "County": "Albany County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -32,11 +32,11 @@
         "Deaths": "94",
         "Cases": "1756",
         "% of Population": "2",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Allegany County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36003",
+    "0500000US36003": {
+        "id": "0500000US36003",
         "County": "Allegany County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -44,11 +44,11 @@
         "Deaths": "2",
         "Cases": "44",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Bronx County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36005",
+    "0500000US36005": {
+        "id": "0500000US36005",
         "County": "Bronx County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -56,11 +56,11 @@
         "Deaths": "4201",
         "Cases": "43766",
         "% of Population": "7",
-        "% or Deaths": "15",
+        "% of Deaths": "15",
         "% of Cases": "12"
     },
-    "Broome County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36007",
+    "0500000US36007": {
+        "id": "0500000US36007",
         "County": "Broome County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -68,11 +68,11 @@
         "Deaths": "40",
         "Cases": "468",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Cattaraugus County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36009",
+    "0500000US36009": {
+        "id": "0500000US36009",
         "County": "Cattaraugus County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -80,11 +80,11 @@
         "Deaths": "2",
         "Cases": "74",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Cayuga County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36011",
+    "0500000US36011": {
+        "id": "0500000US36011",
         "County": "Cayuga County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -92,11 +92,11 @@
         "Deaths": "2",
         "Cases": "73",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Chautauqua County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36013",
+    "0500000US36013": {
+        "id": "0500000US36013",
         "County": "Chautauqua County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -104,11 +104,11 @@
         "Deaths": "2",
         "Cases": "63",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Chemung County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36015",
+    "0500000US36015": {
+        "id": "0500000US36015",
         "County": "Chemung County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -116,11 +116,11 @@
         "Deaths": "3",
         "Cases": "135",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Chenango County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36017",
+    "0500000US36017": {
+        "id": "0500000US36017",
         "County": "Chenango County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -128,11 +128,11 @@
         "Deaths": "4",
         "Cases": "118",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Clinton County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36019",
+    "0500000US36019": {
+        "id": "0500000US36019",
         "County": "Clinton County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -140,11 +140,11 @@
         "Deaths": "4",
         "Cases": "94",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Columbia County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36021",
+    "0500000US36021": {
+        "id": "0500000US36021",
         "County": "Columbia County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -152,11 +152,11 @@
         "Deaths": "36",
         "Cases": "356",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Cortland County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36023",
+    "0500000US36023": {
+        "id": "0500000US36023",
         "County": "Cortland County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -164,11 +164,11 @@
         "Deaths": "1",
         "Cases": "37",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Delaware County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36025",
+    "0500000US36025": {
+        "id": "0500000US36025",
         "County": "Delaware County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -176,11 +176,11 @@
         "Deaths": "2",
         "Cases": "72",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Dutchess County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36027",
+    "0500000US36027": {
+        "id": "0500000US36027",
         "County": "Dutchess County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -188,11 +188,11 @@
         "Deaths": "133",
         "Cases": "3767",
         "% of Population": "2",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "1"
     },
-    "Erie County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36029",
+    "0500000US36029": {
+        "id": "0500000US36029",
         "County": "Erie County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -200,11 +200,11 @@
         "Deaths": "454",
         "Cases": "5397",
         "% of Population": "5",
-        "% or Deaths": "2",
+        "% of Deaths": "2",
         "% of Cases": "2"
     },
-    "Essex County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36031",
+    "0500000US36031": {
+        "id": "0500000US36031",
         "County": "Essex County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -212,11 +212,11 @@
         "Deaths": "0",
         "Cases": "36",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Franklin County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36033",
+    "0500000US36033": {
+        "id": "0500000US36033",
         "County": "Franklin County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -224,11 +224,11 @@
         "Deaths": "0",
         "Cases": "19",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Fulton County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36035",
+    "0500000US36035": {
+        "id": "0500000US36035",
         "County": "Fulton County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -236,11 +236,11 @@
         "Deaths": "18",
         "Cases": "189",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Genesee County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36037",
+    "0500000US36037": {
+        "id": "0500000US36037",
         "County": "Genesee County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -248,11 +248,11 @@
         "Deaths": "4",
         "Cases": "189",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Greene County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36039",
+    "0500000US36039": {
+        "id": "0500000US36039",
         "County": "Greene County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -260,11 +260,11 @@
         "Deaths": "12",
         "Cases": "215",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Hamilton County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36041",
+    "0500000US36041": {
+        "id": "0500000US36041",
         "County": "Hamilton County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -272,11 +272,11 @@
         "Deaths": "1",
         "Cases": "5",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Herkimer County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36043",
+    "0500000US36043": {
+        "id": "0500000US36043",
         "County": "Herkimer County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -284,11 +284,11 @@
         "Deaths": "3",
         "Cases": "95",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Jefferson County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36045",
+    "0500000US36045": {
+        "id": "0500000US36045",
         "County": "Jefferson County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -296,11 +296,11 @@
         "Deaths": "0",
         "Cases": "72",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Kings County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36047",
+    "0500000US36047": {
+        "id": "0500000US36047",
         "County": "Kings County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -308,11 +308,11 @@
         "Deaths": "6459",
         "Cases": "53639",
         "% of Population": "13",
-        "% or Deaths": "23",
+        "% of Deaths": "23",
         "% of Cases": "15"
     },
-    "Lewis County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36049",
+    "0500000US36049": {
+        "id": "0500000US36049",
         "County": "Lewis County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -320,11 +320,11 @@
         "Deaths": "5",
         "Cases": "19",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Livingston County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36051",
+    "0500000US36051": {
+        "id": "0500000US36051",
         "County": "Livingston County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -332,11 +332,11 @@
         "Deaths": "3",
         "Cases": "114",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Madison County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36053",
+    "0500000US36053": {
+        "id": "0500000US36053",
         "County": "Madison County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -344,11 +344,11 @@
         "Deaths": "8",
         "Cases": "297",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Monroe County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36055",
+    "0500000US36055": {
+        "id": "0500000US36055",
         "County": "Monroe County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -356,11 +356,11 @@
         "Deaths": "169",
         "Cases": "2601",
         "% of Population": "4",
-        "% or Deaths": "1",
+        "% of Deaths": "1",
         "% of Cases": "1"
     },
-    "Montgomery County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36057",
+    "0500000US36057": {
+        "id": "0500000US36057",
         "County": "Montgomery County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -368,11 +368,11 @@
         "Deaths": "4",
         "Cases": "77",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Nassau County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36059",
+    "0500000US36059": {
+        "id": "0500000US36059",
         "County": "Nassau County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -380,11 +380,11 @@
         "Deaths": "2082",
         "Cases": "39608",
         "% of Population": "7",
-        "% or Deaths": "7",
+        "% of Deaths": "7",
         "% of Cases": "11"
     },
-    "New York County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36061",
+    "0500000US36061": {
+        "id": "0500000US36061",
         "County": "New York County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -392,11 +392,11 @@
         "Deaths": "2707",
         "Cases": "25672",
         "% of Population": "8",
-        "% or Deaths": "10",
+        "% of Deaths": "10",
         "% of Cases": "7"
     },
-    "Niagara County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36063",
+    "0500000US36063": {
+        "id": "0500000US36063",
         "County": "Niagara County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -404,11 +404,11 @@
         "Deaths": "55",
         "Cases": "897",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Oneida County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36065",
+    "0500000US36065": {
+        "id": "0500000US36065",
         "County": "Oneida County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -416,11 +416,11 @@
         "Deaths": "41",
         "Cases": "828",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Onondaga County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36067",
+    "0500000US36067": {
+        "id": "0500000US36067",
         "County": "Onondaga County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -428,11 +428,11 @@
         "Deaths": "96",
         "Cases": "1828",
         "% of Population": "2",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "1"
     },
-    "Ontario County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36069",
+    "0500000US36069": {
+        "id": "0500000US36069",
         "County": "Ontario County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -440,11 +440,11 @@
         "Deaths": "9",
         "Cases": "180",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Orange County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36071",
+    "0500000US36071": {
+        "id": "0500000US36071",
         "County": "Orange County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -452,11 +452,11 @@
         "Deaths": "360",
         "Cases": "10142",
         "% of Population": "2",
-        "% or Deaths": "1",
+        "% of Deaths": "1",
         "% of Cases": "3"
     },
-    "Orleans County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36073",
+    "0500000US36073": {
+        "id": "0500000US36073",
         "County": "Orleans County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -464,11 +464,11 @@
         "Deaths": "27",
         "Cases": "175",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Oswego County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36075",
+    "0500000US36075": {
+        "id": "0500000US36075",
         "County": "Oswego County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -476,11 +476,11 @@
         "Deaths": "2",
         "Cases": "96",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Otsego County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36077",
+    "0500000US36077": {
+        "id": "0500000US36077",
         "County": "Otsego County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -488,11 +488,11 @@
         "Deaths": "4",
         "Cases": "67",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Putnam County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36079",
+    "0500000US36079": {
+        "id": "0500000US36079",
         "County": "Putnam County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -500,11 +500,11 @@
         "Deaths": "58",
         "Cases": "1187",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Queens County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36081",
+    "0500000US36081": {
+        "id": "0500000US36081",
         "County": "Queens County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -512,11 +512,11 @@
         "Deaths": "6058",
         "Cases": "60236",
         "% of Population": "12",
-        "% or Deaths": "21",
+        "% of Deaths": "21",
         "% of Cases": "17"
     },
-    "Rensselaer County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36083",
+    "0500000US36083": {
+        "id": "0500000US36083",
         "County": "Rensselaer County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -524,11 +524,11 @@
         "Deaths": "25",
         "Cases": "460",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Richmond County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36085",
+    "0500000US36085": {
+        "id": "0500000US36085",
         "County": "Richmond County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -536,11 +536,11 @@
         "Deaths": "916",
         "Cases": "13171",
         "% of Population": "2",
-        "% or Deaths": "3",
+        "% of Deaths": "3",
         "% of Cases": "4"
     },
-    "Rockland County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36087",
+    "0500000US36087": {
+        "id": "0500000US36087",
         "County": "Rockland County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -548,11 +548,11 @@
         "Deaths": "487",
         "Cases": "12905",
         "% of Population": "2",
-        "% or Deaths": "2",
+        "% of Deaths": "2",
         "% of Cases": "4"
     },
-    "St. Lawrence County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36089",
+    "0500000US36089": {
+        "id": "0500000US36089",
         "County": "St. Lawrence County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -560,11 +560,11 @@
         "Deaths": "2",
         "Cases": "195",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Saratoga County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36091",
+    "0500000US36091": {
+        "id": "0500000US36091",
         "County": "Saratoga County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -572,11 +572,11 @@
         "Deaths": "14",
         "Cases": "448",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Schenectady County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36093",
+    "0500000US36093": {
+        "id": "0500000US36093",
         "County": "Schenectady County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -584,11 +584,11 @@
         "Deaths": "26",
         "Cases": "645",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Schoharie County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36095",
+    "0500000US36095": {
+        "id": "0500000US36095",
         "County": "Schoharie County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -596,11 +596,11 @@
         "Deaths": "2",
         "Cases": "49",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Schuyler County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36097",
+    "0500000US36097": {
+        "id": "0500000US36097",
         "County": "Schuyler County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -608,11 +608,11 @@
         "Deaths": "0",
         "Cases": "11",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Seneca County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36099",
+    "0500000US36099": {
+        "id": "0500000US36099",
         "County": "Seneca County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -620,11 +620,11 @@
         "Deaths": "1",
         "Cases": "54",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Steuben County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36101",
+    "0500000US36101": {
+        "id": "0500000US36101",
         "County": "Steuben County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -632,11 +632,11 @@
         "Deaths": "27",
         "Cases": "240",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Suffolk County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36103",
+    "0500000US36103": {
+        "id": "0500000US36103",
         "County": "Suffolk County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -644,11 +644,11 @@
         "Deaths": "1814",
         "Cases": "38672",
         "% of Population": "8",
-        "% or Deaths": "6",
+        "% of Deaths": "6",
         "% of Cases": "11"
     },
-    "Sullivan County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36105",
+    "0500000US36105": {
+        "id": "0500000US36105",
         "County": "Sullivan County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -656,11 +656,11 @@
         "Deaths": "28",
         "Cases": "1287",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Tioga County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36107",
+    "0500000US36107": {
+        "id": "0500000US36107",
         "County": "Tioga County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -668,11 +668,11 @@
         "Deaths": "17",
         "Cases": "118",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Tompkins County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36109",
+    "0500000US36109": {
+        "id": "0500000US36109",
         "County": "Tompkins County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -680,11 +680,11 @@
         "Deaths": "0",
         "Cases": "147",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Ulster County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36111",
+    "0500000US36111": {
+        "id": "0500000US36111",
         "County": "Ulster County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -692,11 +692,11 @@
         "Deaths": "70",
         "Cases": "1595",
         "% of Population": "1",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Warren County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36113",
+    "0500000US36113": {
+        "id": "0500000US36113",
         "County": "Warren County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -704,11 +704,11 @@
         "Deaths": "27",
         "Cases": "246",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Washington County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36115",
+    "0500000US36115": {
+        "id": "0500000US36115",
         "County": "Washington County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -716,11 +716,11 @@
         "Deaths": "14",
         "Cases": "224",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Wayne County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36117",
+    "0500000US36117": {
+        "id": "0500000US36117",
         "County": "Wayne County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -728,11 +728,11 @@
         "Deaths": "2",
         "Cases": "104",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Westchester County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36119",
+    "0500000US36119": {
+        "id": "0500000US36119",
         "County": "Westchester County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -740,11 +740,11 @@
         "Deaths": "1319",
         "Cases": "32767",
         "% of Population": "5",
-        "% or Deaths": "5",
+        "% of Deaths": "5",
         "% of Cases": "9"
     },
-    "Wyoming County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36121",
+    "0500000US36121": {
+        "id": "0500000US36121",
         "County": "Wyoming County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -752,11 +752,11 @@
         "Deaths": "5",
         "Cases": "79",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Yates County": {
-        "\u00ef\u00bb\u00bfID": "0500000US36123",
+    "0500000US36123": {
+        "id": "0500000US36123",
         "County": "Yates County",
         "State": "NY",
         "Date": "5/22/2020",
@@ -764,11 +764,11 @@
         "Deaths": "6",
         "Cases": "34",
         "% of Population": "0",
-        "% or Deaths": "0",
+        "% of Deaths": "0",
         "% of Cases": "0"
     },
-    "Total": {
-        "\u00ef\u00bb\u00bfID": "#N/A",
+    "#N/A": {
+        "id": "#N/A",
         "County": "Total",
         "State": "",
         "Date": "",
@@ -776,7 +776,7 @@
         "Deaths": "28367",
         "Cases": "358223",
         "% of Population": "",
-        "% or Deaths": "",
+        "% of Deaths": "",
         "% of Cases": ""
     }
 }
