@@ -80,7 +80,7 @@ d3.json(jsonData, function(data) {
     
     // percent.forEach((i) => console.log(i))
 
-    var countyLink = "static/data/ny.geojson"
+    var countyLink = "static/data/source/ny.geojson"
     
     d3.json(countyLink, function(data){
         data.features.forEach(function(item, index){
