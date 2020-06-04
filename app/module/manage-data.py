@@ -29,12 +29,12 @@ def convertCsvToJson(srcId, srcFile, jsonFilePath):
         jsonFile.write(json.dumps(data, indent=4))
 
 
-printPath = os.path.join('..', 'static', 'data', 'clean',
+printPath = os.path.join('..', 'static', 'data', 'processed',
                          '*.csv')
 
 
 # Print csv's in folder C:\Users\admin\
-for csvFileName in glob.iglob(os.path.join('..', 'static', 'data', 'clean', '*.csv')):
+for csvFileName in glob.iglob(os.path.join('..', 'static', 'data', 'processed', '*.csv')):
 
     # create a name for the json output file
     jsonFileName = csvFileName.replace('.csv', '.json')
@@ -51,11 +51,11 @@ for csvFileName in glob.iglob(os.path.join('..', 'static', 'data', 'clean', '*.c
 
 # Covid State Data
 # create variable to hold path to the covid ny county results csv source file
-srcFile = os.path.join('..', 'static', 'data', 'clean',
+srcFile = os.path.join('..', 'static', 'data', 'processed',
                        'covid_ny_results_county.csv')
 
 # create variable to hold path to the covid ny county results json file
-jsonFilePath = os.path.join('..', 'static', 'data', 'clean',
+jsonFilePath = os.path.join('..', 'static', 'data', 'processed',
                             'covid_ny_results_county.json')
 
 # execute conversion with given parameters
@@ -63,11 +63,11 @@ convertCsvToJson('testdate', srcFile, jsonFilePath)
 
 
 # create variable to hold path to the covid ny state results csv source file
-srcFile = os.path.join('..', 'static', 'data', 'clean',
+srcFile = os.path.join('..', 'static', 'data', 'processed',
                        'covid_ny_state_results.csv')
 
 # create variable to hold path to the covid ny state results json file
-jsonFilePath = os.path.join('..', 'static', 'data', 'clean',
+jsonFilePath = os.path.join('..', 'static', 'data', 'processed',
                             'covid_ny_state_results.json')
 
 # execute conversion with given parameters
@@ -76,11 +76,11 @@ convertCsvToJson('testdate', srcFile, jsonFilePath)
 
 # Dow Jones Index
 # create variable to hold path to the free lunch csv source file
-srcFile = os.path.join('..', 'static', 'data', 'clean',
+srcFile = os.path.join('..', 'static', 'data', 'processed',
                        'dji_avg.csv')
 
 # create variable to hold path to the free lunch json file
-jsonFilePath = os.path.join('..', 'static', 'data', 'clean',
+jsonFilePath = os.path.join('..', 'static', 'data', 'processed',
                             'dow_jones_index.json')
 
 
