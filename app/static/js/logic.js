@@ -49,7 +49,7 @@ d3.json(countyLink, function(data) {
       // identify county name
       label = feature.properties.name
 
-      layer.bindPopup("<h1>" + label)
+      layer.bindPopup("<h3>" + label + "</h3><hr>Click for more data")
 
       // darken color on hover
       layer.on({
@@ -79,6 +79,12 @@ d3.json(countyLink, function(data) {
           })
           info.update()
           layer.closePopup()
+        },
+        click: function(event) {
+          layer = event.target
+          county = layer.feature.properties.name
+          console.log(county)
+          window.location = ("../templates/sample.html")
         }
       })
     }
