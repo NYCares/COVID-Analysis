@@ -4,125 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sample</title>
-    <!-- Tailwind and Our CSS -->
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Boostrap & Our CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/style.css">
-    
+
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
     
     <!-- Chart JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
   <body>
     <!-- header / top nav -->
-    <nav class="flex items-center justify-between flex-wrap bg-gray-700 p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <img src="../static/img/logo_transparent.svg" width="400">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><img src="../static/img/logo_transparent.svg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <div>
+          <span class="navbar-text">
+            A deep dive analysis into the impact COVID-19 has had on New York's Counties.
+          </span>
+        </div>
+        <div>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="button">
+            <a href="sample.html">
+              COVID cases vs Stock Market
+            </a>
+          </button>
+        </div>
       </div>
     </nav>
-    <div class="container mx-auto px-4">
-      <!-- ... -->
-    
-      <!-- Drop Down Selector / Menu 
-                    By County
-                    --county 1
-                    -- county 2
-                    -- county 3 
-                    -- etc.
-                    Top 4
-          
-                    Pick any Four Counties
-                    By Region
-                    Overall
-              -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <canvas id="myDoughnutChart"></canvas>
+            <div class="card-body">
+              <h5 class="card-title">{{Demographic Data}}</h5>
+              <p class="card-text">#cases</p>
+              <p class="card-text">#deaths</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <canvas id="NYDoughnutChart"></canvas>
+            <div class="card-body">
+              <h5 class="card-title">{{Demographic Data}}</h5>
+              <p class="card-text">#cases</p>
+              <p class="card-text">#deaths</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <canvas id="myBarChart"></canvas>
+            <div class="card-body">
+              <h5 class="card-title">{{COVID Cases & Deaths by County}}</h5>
+              <p class="card-text">5th most cases</p>
+              <p class="card-text">3rd most deaths</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <canvas id="myStackedBarChart"></canvas>
+            <div class="card-body">
+              <h5 class="card-title">{{Percent of the County Poor}}</h5>
+              <p class="card-text">5th poorest county</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <canvas id="barChartHorizontal"></canvas>
+            <div class="card-body">
+              <h5 class="card-title">{{Median Income by Race}}</h5>
+              <p class="card-text">###</p>
+            </div>
+          </div>
+        </div>
+      </div>  
     </div>
-    
-  <!-- Two columns -->
-  <div class="flex mb-4 mt-32">
-    <div class="w-1/2 bg-gray-400 ml-8 px-8 py-8">
 
-    <div class="max-w-lg rounded overflow-hidden shadow-lg">
-      <canvas id="myDoughnutChart" width="800" height="450"></canvas>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2">{{chartTitle - Demographic Data}}</div>
-        <p class="text-pink-700 text-base">
-          The following provides demographic data for New York.
-        </p>
-      </div>
-      <div class="px-6 py-4">
-        
-        <span
-          class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-pink-200 mr-2">#cases</span>
-        <span class="inline-block bg-pink-600 rounded-full px-3 py-1 text-sm font-semibold text-white">#deaths</span>
-      </div>
-    </div>
-    </div>
-    <div class="w-1/2 bg-gray-500 h-12 mr-8 px-8 py-8">
-      
-      <div class="max-w-lg rounded overflow-hidden shadow-lg">
-        <canvas id="myBarChart" ></canvas>
-        <div class="px-6 py-4 bg-white">
-          <div class="font-bold text-xl mb-2">{{Covid Cases & Deaths by County}}</div>
-          <p class="text-pink-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.
-          </p>
-        </div>
-        <div class="px-6 py-4">
-      
-          <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-pink-200 mr-2">5th most casescases</span>
-          <span class="inline-block bg-pink-600 rounded-full px-3 py-1 text-sm font-semibold text-white">3rd most deaths</span>
-        </div>
-      </div>
-      </div>
-      
-    </div>
-  </div>
-
-  <div class="flex mb-4 mt-4">
-    <div class="w-1/2 bg-gray-400 ml-8 px-8 py-8">
+    <script src="../static/js/app.js"></script>
   
-      <div class="max-w-lg rounded overflow-hidden shadow-lg">
-        <canvas id="myStackedBarChart" width="800" height="450"></canvas>
-        <div class="px-6 py-4 bg-white">
-          <div class="font-bold text-xl mb-2">Chart Bottom Left</div>
-          <p class="text-pink-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis
-            eaque,
-            exercitationem praesentium nihil.
-          </p>
-        </div>
-        <div class="px-6 py-4">
-  
-          <span
-            class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-pink-200 mr-2">#cases</span>
-          <span class="inline-block bg-pink-600 rounded-full px-3 py-1 text-sm font-semibold text-white">#deaths</span>
-        </div>
-      </div>
-    </div>
-    <div class="w-1/2 bg-gray-500 h-12 mr-8 px-8">
-  
-    <div class="max-w-lg rounded overflow-hidden shadow-lg">
-      <canvas id="barChartHorizontal" width="800" height="450"></canvas>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2">{{Median Income by Race}}</div>
-        <p class="text-pink-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque,
-          exercitationem praesentium nihil.
-        </p>
-      </div>
-      <div class="px-6 py-4">
-    
-        <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-pink-200 mr-2">5th most
-          casescases</span>
-        <span class="inline-block bg-pink-600 rounded-full px-3 py-1 text-sm font-semibold text-white">3rd most
-          deaths</span>
-      </div>
-    </div>
-  
-    </div>
-  </div>
-  <script src="../static/js/app.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
