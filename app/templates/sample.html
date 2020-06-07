@@ -18,23 +18,9 @@
     <!-- header / top nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html"><img src="../static/img/logo_transparent.svg"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-        <div>
-          <span class="navbar-text">
-            A deep dive analysis into the impact COVID-19 has had on New York's Counties.
-          </span>
-        </div>
-        <div>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="button">
-            <a href="results.html">
-              COVID cases vs Stock Market
-            </a>
-          </button>
-        </div>
-      </div>
+      <span class="navbar-text">
+        A deep dive analysis into the impact COVID-19 has had on New York's Counties.
+      </span>
     </nav>
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2">
@@ -52,7 +38,7 @@
           <div class="card">
             <canvas id="NYDoughnutChart"></canvas>
             <div class="card-body">
-              <h5 class="card-title">{{Demographic Data}}</h5>
+              <h5 class="card-title">NY State Demographic Data</h5>
               <p class="card-text">#cases</p>
               <p class="card-text">#deaths</p>
             </div>
@@ -83,6 +69,15 @@
             <div class="card-body">
               <h5 class="card-title">{{Median Income by Race}}</h5>
               <p class="card-text">###</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <canvas id="multipleLineChart"></canvas>
+            <div class="card-body">
+              <h5 class="card-title">Dow Jones Index vs COVID-19</h5>
+              <p class="card-text">Stimulus check was sent out on 4/9/2020</p>
             </div>
           </div>
         </div>
