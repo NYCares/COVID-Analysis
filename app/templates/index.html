@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Mock-Up UI</title>
 
     <!-- Leaflet JS & CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-    crossorigin=""></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+      integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+      integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+      crossorigin=""
+    ></script>
 
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -22,30 +27,202 @@
     <!-- <script src="static/js/FileSaver.js"></script> -->
 
     <!-- Boostrap & Our CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../static/css/style.css" />
   </head>
   <body>
     <!-- header / top nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html"><img src="../static/img/logo_transparent.svg"></a>
+      <a class="navbar-brand" href="index.html"
+        ><img src="../static/img/logo_transparent.svg"
+      /></a>
       <span class="navbar-text">
-        A deep dive analysis into the impact COVID-19 has had on New York's Counties.
+        A deep dive analysis into the impact COVID-19 has had on New York's
+        Counties.
       </span>
     </nav>
     <!-- map div -->
     <div id="map"></div>
 
+    {% block javascript %}
+    <script>
+      var map = L.map('map', {
+        center: [42.75, -75.5],
+        zoom: 7,
+      });
+
+      // Adding tile layer
+      L.tileLayer(
+        'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
+        {
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+          maxZoom: 18,
+          id: 'mapbox/light-v9',
+          tileSize: 512,
+          zoomOffset: -1,
+          accessToken:
+            'pk.eyJ1Ijoic3dhdGkxOGQiLCJhIjoiY2thZWkxNWp4MDE1ODMwcDk5Zmlza2RnYyJ9.tAm_pjrMjiXlid3-bcovFQ',
+        }
+      ).addTo(map);
+
+      // Link to local geojson
+      var countyLink = '../static/data/ny_color.geojson';
+
+      function getColor(d) {
+        return d > 60000
+          ? '#800026'
+          : d > 50000
+          ? '#BD0026'
+          : d > 20000
+          ? '#E31A1C'
+          : d > 10000
+          ? '#FC4E2A'
+          : d > 5000
+          ? '#FD8D3C'
+          : d > 2000
+          ? '#FEB24C'
+          : d > 1000
+          ? '#FED976'
+          : '#FFEDA0';
+      }
+
+      function style(feature) {
+        return {
+          fillColor: getColor(feature.properties.percent),
+          weight: 2,
+          opacity: 1,
+          color: 'white',
+          dashArray: '3',
+          fillOpacity: 0.7,
+        };
+      }
+
+      // Grabbing our GeoJSON data..
+      d3.json(countyLink, function (data) {
+        // Creating a GeoJSON layer with the retrieved data
+        L.geoJson(data, {
+          style: style,
+
+          // called on each feature
+          onEachFeature: function (feature, layer) {
+            // identify county name
+            label = feature.properties.name;
+
+            layer.bindPopup('<h3>' + label + '</h3><hr>Click for more data');
+
+            // darken color on hover
+            layer.on({
+              mouseover: function (event) {
+                layer = event.target;
+                layer.setStyle({
+                  fillOpacity: 1,
+                  weight: 5,
+                  color: '#666',
+                  dashArray: '',
+                });
+                if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                  layer.bringToFront();
+                }
+                info.update(layer.feature.properties);
+                layer.openPopup();
+              },
+              mouseout: function (event) {
+                layer = event.target;
+                layer.setStyle({
+                  fillOpacity: 0.7,
+                  weight: 2,
+                  opacity: 1,
+                  color: 'white',
+                  dashArray: '3',
+                });
+                info.update();
+                layer.closePopup();
+              },
+              click: function (event) {
+                layer = event.target;
+                county = layer.feature.properties.name;
+                console.log(county);
+                window.location.href = '../test.html/' + county;
+              },
+            });
+          },
+        }).addTo(map);
+
+        var legend = L.control({ position: 'bottomright' });
+
+        legend.onAdd = function (map) {
+          var div = L.DomUtil.create('div', 'info legend'),
+            grades = [0, 1000, 2000, 5000, 10000, 20000, 50000, 60000],
+            labels = [];
+
+          // loop through our density intervals and generate a label with a colored square for each interval
+          for (var i = 0; i < grades.length; i++) {
+            div.innerHTML +=
+              '<i style="background:' +
+              getColor(grades[i] + 1) +
+              '"></i> ' +
+              grades[i] +
+              (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+          }
+
+          return div;
+        };
+        legend.addTo(map);
+
+        var info = L.control();
+
+        info.onAdd = function (map) {
+          this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+          this.update();
+          return this._div;
+        };
+
+        // method that we will use to update the control based on feature properties passed
+        info.update = function (props) {
+          this._div.innerHTML =
+            '<h4>NY Covid Cases as of May 22</h4>' +
+            (props
+              ? '<b>' +
+                props.name +
+                '</b><br />' +
+                props.percent +
+                ' people with COVID-19'
+              : 'Hover over a county');
+        };
+
+        info.addTo(map);
+      });
+    </script>
+
+    {% endblock %}
     <!-- API key -->
     <script src="../static/js/config.js"></script>
-    
+
     <!-- JS  -->
     <!-- <script src="static/js/convert.js"></script> -->
-    <script src="../static/js/logic.js"></script>
+    <!-- <script src="../static/js/logic.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
     <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

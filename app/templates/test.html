@@ -95,6 +95,29 @@
                 deaths</span>
             </div>
           </div>
+
+            <div class="w-1/2 bg-gray-500 h-12 mr-8 px-8">
+            
+              <div class="max-w-lg rounded overflow-hidden shadow-lg">
+                <canvas id="djiChart" width="800" height="450"></canvas>
+                <div class="px-6 py-4 bg-white">
+                  <div class="font-bold text-xl mb-2">Dow Jones</div>
+                  <p class="text-pink-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis
+                    eaque,
+                    exercitationem praesentium nihil.
+                  </p>
+                </div>
+                <div class="px-6 py-4">
+            
+                  <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-pink-200 mr-2">5th most
+                    casescases</span>
+                  <span class="inline-block bg-pink-600 rounded-full px-3 py-1 text-sm font-semibold text-white">3rd most
+                    deaths</span>
+                </div>
+              </div>
+            
+            </div>
       
         </div>
       </div>
@@ -106,7 +129,11 @@
   labels = {{ pop_label | tojson }}; 
   data = {{ population | tojson }};
   median = {{ median_income | tojson }};
-  
+  lunch_data = {{ fl_pct_county | tojson }};
+  state_data = {{ fl_pct_state | tojson }};
+  cases = {{ covid_incidents | tojson }};
+  deaths = {{ covid_deaths | tojson }};
+
   // Doughnut
   new Chart(document.getElementById('myDoughnutChart'), {
       type: 'doughnut',
@@ -135,90 +162,69 @@
 
 // Stacked Bar 
   new Chart(document.getElementById('myBarChart'), {
-    type: 'bar',
-    data: data,
+    type: 'bar',    
+    data: {
+      labels: ['Cases and Deaths for the County'],
+      datasets: [
+      {
+        data: deaths,
+        label: 'Number of Deaths',
+        backgroundColor: 'red',
+      },
+      {
+          data: cases,
+          label: 'Number of Cases',
+          backgroundColor: '#D6E9C6',
+        }
+    ]
+    },
     options: {
       scales: {
         xAxes: [{
           stacked: true
         }],
         yAxes: [{
-          stacked: true
+          stacked: true,
+          ticks: {
+            beginAtZero: true
+          }
         }]
       }
     }
   });
 
-
-  // new Chart(document.getElementById('myBarChart'), {
-  //   type: 'bar',
-  //   data: {
-  //     labels: labels,
-  //     datasets: [
-  //       {
-  //         label: 'Demographics for County:',
-  //         data: data,
-  //         backgroundColor: [
-  //           'rgba(255, 99, 132, 0.2)',
-  //           'rgba(54, 162, 235, 0.2)',
-  //           'rgba(255, 206, 86, 0.2)',
-  //           'rgba(75, 192, 192, 0.2)',
-  //           'rgba(153, 102, 255, 0.2)',
-  //           'rgba(255, 159, 64, 0.2)',
-  //           'rgba(54, 159, 64, 0.2)',
-  //         ],
-  //         borderColor: [
-  //           'rgba(255, 99, 132, 1)',
-  //           'rgba(54, 162, 235, 1)',
-  //           'rgba(255, 206, 86, 1)',
-  //           'rgba(75, 192, 192, 1)',
-  //           'rgba(153, 102, 255, 1)',
-  //           'rgba(255, 159, 64, 1)',
-  //           'rgba(54, 159, 64, 1)',
-  //         ],
-  //         borderWidth: 1,
-  //       },
-  //     ],
-  //   },
-  //   options: {
-  //     scales: {
-  //       yAxes: [
-  //         {
-  //           ticks: {
-  //             beginAtZero: true,
-  //           },
-  //         },
-  //       ],
-  //     },
-  //   },
-  // });
-
-
-// Stacked
+// Side by Side Two Bar Comparison
+  
+// Mixed bar chart
   new Chart(document.getElementById('myStackedBarChart'), {
-    type: 'bar',
-    data: {
-      labels: ['Risk Level'],
-      datasets: [
-        {
-          label: 'Lunch Program',
-          data: [67.8],
-          backgroundColor: '#D6E9C6',
-        },
-        {
-          label: 'Not On Program',
-          data: [20.7],
-          backgroundColor: '#FAEBCC',
-        },
-      ],
-    },
-    options: {
-      scales: {
-        xAxes: [{ stacked: true }],
-        yAxes: [{ stacked: true }],
+      type: 'bar',
+      data: {
+        labels: ['Poverty Levels'],
+        datasets: [
+          {
+            label: 'County Poverty Percentage',
+            data: lunch_data,
+            backgroundColor: '#D6E9C6',
+          },
+          {
+            label: 'State Poverty Percentage',
+            data: state_data,
+            backgroundColor: 'red',
+          }],
       },
-    },
-  });
+      options: {
+        scales: {
+          // xAxes: [{
+          //   // stacked: true
+          // }],
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
 
 
 
@@ -230,7 +236,7 @@
       labels: labels,
       datasets: [
         {
-          label: 'Population (millions)',
+          label: 'Median Income',
           backgroundColor: [
             '#3e95cd',
             '#8e5ea2',
