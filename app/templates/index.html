@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>Mock-Up UI</title>
+    <title>NYCares</title>
 
     <!-- Leaflet JS & CSS -->
     <link
@@ -19,12 +19,7 @@
 
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
-
-    <!-- Leaflet-Choropleth JavaScript -->
-    <script src="../static/js/choropleth.js"></script>
-
-    <!-- FileSaver -->
-    <!-- <script src="static/js/FileSaver.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 
     <!-- Boostrap & Our CSS -->
     <link
@@ -38,7 +33,7 @@
   <body>
     <!-- header / top nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html"
+      <a class="navbar-brand" href="#"
         ><img src="../static/img/logo_transparent.svg"
       /></a>
       <span class="navbar-text">
@@ -66,8 +61,7 @@
           id: 'mapbox/light-v9',
           tileSize: 512,
           zoomOffset: -1,
-          accessToken:
-            'pk.eyJ1Ijoic3dhdGkxOGQiLCJhIjoiY2thZWkxNWp4MDE1ODMwcDk5Zmlza2RnYyJ9.tAm_pjrMjiXlid3-bcovFQ',
+          accessToken: "pk.eyJ1Ijoic3dhdGkxOGQiLCJhIjoiY2thZWkxNWp4MDE1ODMwcDk5Zmlza2RnYyJ9.tAm_pjrMjiXlid3-bcovFQ",
         }
       ).addTo(map);
 
@@ -148,7 +142,7 @@
                 layer = event.target;
                 county = layer.feature.properties.name;
                 console.log(county);
-                window.location.href = '../test.html/' + county;
+                window.location.href = '../results.html/' + county;
               },
             });
           },
@@ -201,13 +195,10 @@
     </script>
 
     {% endblock %}
+
     <!-- API key -->
     <script src="../static/js/config.js"></script>
 
-    <!-- JS  -->
-    <!-- <script src="static/js/convert.js"></script> -->
-    <!-- <script src="../static/js/logic.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
     <!-- JS, Popper.js, and jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

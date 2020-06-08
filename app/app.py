@@ -12,10 +12,6 @@ from bson.json_util import dumps
 # Create an instance of our Flask app.
 app = Flask(__name__)
 
-# read json master dataset
-# json_data = open(os.path.join('.', 'static', 'data', 'processed', 'covid_master_analysis.json'))
-# print(json_data)
-
 # Create connection variable
 conn = 'mongodb://localhost:27017'
 
@@ -27,30 +23,12 @@ db = dbconn.nycares_db
 
 col = db.covid_master_analysis
 
-# master_data = json.load(json_data)
-# print(master_data['25']['County'])
-
-# db.covid_analysis.find_one({"county": "Queens"})
-
 # Define routes
 @app.route("/")
 def welcome():
     return render_template('index.html')
 
-
-# @app.route("/test.html/<county>")
-# def Visualization(county):
-#     for item in master_data:
-#         comparison = master_data[item]['County'].lower()
-#         if comparison == county.lower():
-#             print('Found a match!')
-#             print(comparison)
-#             data = json.dumps(master_data[item])
-#             print(data)
-#             return render_template('test.html', data=master_data)
-
-
-@app.route("/test.html/<county>")
+@app.route("/results.html/<county>")
 def Visualization(county):
     master_data = db.covid_master_analysis.find_one({"County": f"{county}"})
 
@@ -69,7 +47,6 @@ def Visualization(county):
     population.append(master_data["pacific_islander_population"])
     population.append(master_data["white_population"])
 
-    # median income
     median_income.append(master_data["asian_median_income"])
     median_income.append(master_data["black_median_income"])
     median_income.append(master_data["hispanic_median_income"])
@@ -95,7 +72,7 @@ def Visualization(county):
         {"region": "New York State"})
     fl_pct_state.append(state_data["percent of state"])
 
-    return render_template('test.html', population=population, pop_label=pop_label, covid_label=covid_label, covid_incidents=covid_incidents, covid_deaths=covid_deaths,  median_income=median_income, fl_pct_county=fl_pct_county, fl_pct_state=fl_pct_state)
+    return render_template('results.html', population=population, pop_label=pop_label, covid_label=covid_label, covid_incidents=covid_incidents, covid_deaths=covid_deaths,  median_income=median_income, fl_pct_county=fl_pct_county, fl_pct_state=fl_pct_state)
 
 
 if __name__ == '__main__':
