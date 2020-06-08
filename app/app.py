@@ -28,6 +28,7 @@ col = db.covid_master_analysis
 def welcome():
     return render_template('index.html')
 
+
 @app.route("/results.html/<county>")
 def Visualization(county):
     master_data = db.covid_master_analysis.find_one({"County": f"{county}"})
@@ -74,6 +75,10 @@ def Visualization(county):
 
     return render_template('results.html', population=population, pop_label=pop_label, covid_label=covid_label, covid_incidents=covid_incidents, covid_deaths=covid_deaths,  median_income=median_income, fl_pct_county=fl_pct_county, fl_pct_state=fl_pct_state)
 
+
+# @app.route("/team.html")
+# def About():
+#     return render_template('team.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
