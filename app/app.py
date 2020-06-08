@@ -72,7 +72,7 @@ def Visualization(county):
     # median income
     median_income.append(master_data["asian_median_income"])
     median_income.append(master_data["black_median_income"])
-    median_income.append(master_data["hispanic_latino_median_income"])
+    median_income.append(master_data["hispanic_median_income"])
     median_income.append(master_data["native_american_median_income"])
     median_income.append(master_data["other_median_income"])
     median_income.append(master_data["pacific_islander_median_income"])
@@ -88,8 +88,9 @@ def Visualization(county):
 
     print(covid_incidents)
     print(covid_deaths)
-    lunch_data = db.free_and_reduced_lunch.find_one({"region": f"{county}"})
-    fl_pct_county.append(lunch_data["percent of the"])
+    lunch_data = db.free_and_reduced_lunch.find_one(
+        {"region": f"{county} County"})
+    fl_pct_county.append(lunch_data["percent of the county"])
     state_data = db.free_and_reduced_lunch.find_one(
         {"region": "New York State"})
     fl_pct_state.append(state_data["percent of state"])
