@@ -16,24 +16,19 @@ We also wanted to see what the correlation is between Wall St and Main St. We kn
 
 We use Census data from the <a href="https://www.labor.ny.gov/stats/nys/statewide-population-data.shtm">NY Dept of Labor</a>, the Dow Jones Index from <a href="https://finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI">Yahoo Finance</a>, COVID cases and deaths from <a href="https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/">USA Facts</a>, Free and Reduced-price Lunch data from <a href="https://www.nyskwic.org/get_data/indicator_data.cfm">NY State KWIC</a>, NY County Median Income by Race from the <a href="https://www.census.gov/topics/income-poverty/income/data/tables.html">Census Bureau</a>,and the GeoJSON for NY Counties from <a href="https://github.com/johan/world.geo.json/tree/master/countries/USA/NY">Github</a>.
 
-All of the data was collected on May 22nd, and was analyzed for that date.
-
 ### Instructions
-1. Open app/modules folder in terminal or Git Bash.
+1. Open app/module folder in terminal or Git Bash.
 2. Run **python load_mongo_db.py**. 
 3. Open app folder.
 4. Run **python app.py**. 
 5. Open browser window and type http://127.0.0.1:5000/
 
 ### Some Considerations
-Indeed on provides how many dags ago a job was posted as it's timestamp on a posting, and it only goes back so far as 30 days. So any jobs posted before 29 days ago shows up as 30+. This means that 30 days ago in our graphs means 30+ days ago.
+All of the data was collected on May 22nd, and was analyzed for that date.
 
-However, since, most states issued lockdowns around <a href="https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States">March 19th</a>, which is 32 days ago from the day we collected our data from Indeed (April 20th), this timed out perfectly for our analysis.
-
-This data is all very new and current, so there is no way of creating a longitudinal study. And as both job-postings are limited in their window of staying on websites, and there is no real test-case to compare this too, there is no way to see how our current results compare to other pandemics of the past.
 <br><br><br>
-The analysis was done using the ETL model.
-![ETL-update.png](view/static/img/etl-update.png)
+The analysis was done using:
+![approach.png](app/static/img/approach.png)
 
 ## Extract
 We used `Beautiful Soup` in `Jupyter Notebook` to scrape data from Indeed. We scraped indeed 5 different times for each of our 5 "Top Cities:" New York, Chicago, Boston, San Francisco (Bay Area), and Seattle. The data we were looking for was the job title, company, location, salary, and date posted from each job posting.
