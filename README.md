@@ -1,5 +1,6 @@
 # NYCares
 ### A deep dive analysis into the impact COVID-19 has had on different counties within New York.
+<hr>
 
 **Team:** Karl Ramsay (Project Manager - Back-End), Swati Dontamsetti (Front-End), Firzana Razak (Front-End), Amber Martin (Back-End), Oswaldo Moreno (Back-End), Anthony Brown (Back-End)
 
