@@ -38,13 +38,13 @@ We downloaded our data from different sources. We use Census data from the <a hr
 5. Lastly, we used `pymongo` and `MongoClient` to create dictionaries of all our records and then load it into `Mongo DB`.
 
 ## Load
+The final data was stored in a `Mongo` database, which was pulled from to obtain our demogrpahic and socio-economic results.
+
 We used the micro-framework `Flask` inside of `Python` to create our website that would showcase our data. `Leaflet JS` and `Mapbox API` were used in `HTML` to create the map of our counties with the COVID case data used for coloring. Both the `Bootstrap`, and `ChartJS` libraries were used to beautify our website and create dynamic graphs.
 
 ![map.png](app/static/img/map.png)
 
 ![charts.png](app/static/img/charts.png)
-
-The final data was stored in a `Mongo` database, which was used to print our demogrpahic and socio-economic results.
 
 ## Final Results & Analysis
 In general, our hypothesis is correct: as harder hit counties are more racially diverse and economically poor.
