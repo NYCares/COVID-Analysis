@@ -37,11 +37,11 @@ We downloaded our data from different sources. We use Census data from the <a hr
 1. We used `VBA` to do a basic clean
 2. We loaded everything into `Postgres DB` for more extensive cleaning and combining of data sources.
 3. Then in `Jupyter Notebook` we used `Pandas` and the `OS` module to import our CSVs and do a final cleaning of column names, once we finalized the datasets we needed.
-4. And then we performed a final a merge of all the columns into one master dataset.
+4. And then we performed a final merge of all the columns into one master dataset.
 5. Lastly, we used `pymongo` and `MongoClient` to create dictionaries of all our records and then load it into `Mongo DB`.
 
 ## Load
-The final data was stored in a `Mongo` database, which was pulled from to obtain our demogrpahic and socio-economic results.
+The final data was stored in a `Mongo` database, which was pulled from to obtain our demographic and socio-economic results.
 
 We used the micro-framework `Flask` inside of `Python` to create our website that would showcase our data. `Leaflet JS` and `Mapbox API` were used in `HTML` to create the map of our counties with the COVID case data used for coloring. Both the `Bootstrap`, and `ChartJS` libraries were used to beautify our website and create dynamic graphs.
 
