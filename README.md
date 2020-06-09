@@ -64,5 +64,7 @@ Hamilton had **5** COVID cases and is well **below** the state poverty percentag
 ![povH.png](app/static/img/povH.png)
 
 ### Median Income & Dow Jones Index
+Queens is more racially diverse but the money is not spread out evenly. The white racial group tends to hold almost double the wealth of any other group, except for other (which is an ambiguous grouping with little info).
 ![incomeQ.png](app/static/img/incomeQ.png)
+Hamilton doesn't even show data on the median income levels of the other racial groups in it's county. But the white groups makes about the same in Hamilton as it does in Queens, even though Queens is much poorer than Hamilton - which only makes the other racial groups that much poorer.
 ![incomeH.png](app/static/img/incomeH.png)
