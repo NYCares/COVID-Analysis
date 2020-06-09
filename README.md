@@ -47,6 +47,6 @@ We used the micro-framework `Flask` inside of `Python` to create our website tha
 The final data was stored in a `Mongo` database, which was used to print our demogrpahic and socio-economic results.
 
 ## Final Results & Analysis
-*Consideration: Even though we placed job postings and COVID-19 cases on top of each other we should consider prior COVID-19 spikes and dips as affecting future job postings. So, the dip in COVID-19 cases 19 days ago in CA might account for the spike in job postings 17 days ago, and the subsequent spike in COVID-19 cases 17 days ago might account for the dip in job postings 13 days ago.*
+In general, our hypothesis is correct: as harder hit counties are more racially diverse and economically poor.
 
-In general, our hypothesis is correct: as new cases of COVID-19 cropped up, the number of job postings have declined. The degree to which this is true varies from State to State, as seen below.
+In the graphs presented here we'll compare Queens (the worst-hit county with 60,236 COVID cases) with Hamilton (the least-hot county with 5 COVID cases):
