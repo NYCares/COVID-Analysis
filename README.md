@@ -49,8 +49,17 @@ We used the micro-framework `Flask` inside of `Python` to create our website tha
 ## Final Results & Analysis
 In general, our hypothesis is correct: as harder hit counties are more racially diverse and economically poor.
 
-In the graphs presented here we'll compare Queens (the worst-hit county with 60,236 COVID cases) with Hamilton (the least-hot county with 5 COVID cases):
+In the graphs presented here we'll compare Queens (the worst-hit county) with Hamilton (the least-hit county):
 
 ### Demographics
-Queens is a lot more racially diverse compared to the State statistics and Hamilton is a lot less diverse.
-![demoQ.png](app/static/img/demoQ.png)![demoH.png](app/static/img/demoH.png)
+Queens is a lot **more** racially diverse compared to the state statistics.
+![demoQ.png](app/static/img/demoQ.png)
+Hamilton is a lot **less** racially diverse compared to the state statistics.
+![demoH.png](app/static/img/demoH.png)
+
+### Cases/Deaths & Poverty Levels
+Queens had **60,236** COVID cases and has almost **double** the poverty level of the state.
+![povQ.png](app/static/img/povQ.png)
+Hamilton had **5** COVID cases and has almost **half** the poverty level of the state.
+![povH.png](app/static/img/povH.png)
+
