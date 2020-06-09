@@ -6,18 +6,22 @@
 <hr>
 
 ## Overview
-The United States has cut nearly 10 million jobs in recent weeks due to the COVID-19 shutdown. In one weeks time, this project will provide an analysis of the impact the COVID-19 shutdown has had on the Data Science job market.
+With a potential plateau in COVID-19 cases in NY, but no definite decrease as of yet, we are interested into seeing what the impact has been on the different counties of NY. We look into the demographic and socio-economic breakdown of each county, while keeping in mind how the impact has varied from county to county.
 
-*Hypothesis: As new cases of COVID-19 crop up, the number of job postings will decline.*
+*Hypothesis: Harder hit counties are poorer and more racially diverse.*
 
-We decided to use <a href="https://www.indeed.com/">Indeed</a> for our job postings search, and we compared the results with the data from the <a href="https://covid19.healthdata.org/united-states-of-america">Institute for Health Metrics and Evaluation</a> on COVID-19 cases, to see if our hypothesis is true, and to what degree.
+We also wanted to see what the correlation is between Wall St and Main St. We know that the stock market crashed pretty severely but is picking back up again, which is disconnected from the way every day people are dealing with COVID-19 since cases have yet to decrease.
 
-We have the data shown for all of the United States, but we also broke the data down by "Top Cities" for Data Science jobs as provided by <a href="https://datajobs.com/">DataJobs</a>: New York, Chicago, Boston, San Francisco (Bay Area), and Seattle.
+*Hypothesis: The stimulus has a stabilizing effect on the market, even though cases are still rising.*
+
+We use Census data from the <a href="https://www.labor.ny.gov/stats/nys/statewide-population-data.shtm">NY Dept of Labor</a>, the Dow Jones Index from <a href="https://finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI">Yahoo Finance</a>, COVID cases and deaths from <a href="https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/">USA Facts</a>, Free and Reduced-price Lunch data from <a href="https://www.nyskwic.org/get_data/indicator_data.cfm">NY State KWIC</a>, NY County Median Income by Race from the <a href="https://www.census.gov/topics/income-poverty/income/data/tables.html">Census Bureau</a>,and the GeoJSON for NY Counties from <a href="https://github.com/johan/world.geo.json/tree/master/countries/USA/NY">Github</a>.
+
+All of the data was collected on May 22nd, and was analyzed for that date.
 
 ### Instructions
-1. Open controller folder in terminal or Git Bash.
-2. Run **python loaddb.py**. 
-3. Open view folder.
+1. Open app/modules folder in terminal or Git Bash.
+2. Run **python load_mongo_db.py**. 
+3. Open app folder.
 4. Run **python app.py**. 
 5. Open browser window and type http://127.0.0.1:5000/
 
