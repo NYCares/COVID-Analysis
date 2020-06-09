@@ -58,8 +58,11 @@ Hamilton is a lot **less** racially diverse compared to the state statistics.
 ![demoH.png](app/static/img/demoH.png)
 
 ### Cases/Deaths & Poverty Levels
-Queens had **60,236** COVID cases and has almost **double** the poverty level of the state.
+Queens had **60,236** COVID cases and is **above** the state poverty percentage.
 ![povQ.png](app/static/img/povQ.png)
-Hamilton had **5** COVID cases and has almost **half** the poverty level of the state.
+Hamilton had **5** COVID cases and is well **below** the state poverty percentage.
 ![povH.png](app/static/img/povH.png)
 
+### Median Income & Dow Jones Index
+![incomeQ.png](app/static/img/incomeQ.png)
+![incomeH.png](app/static/img/incomeH.png)
