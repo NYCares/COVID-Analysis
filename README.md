@@ -26,8 +26,7 @@ We use Census data from the <a href="https://www.labor.ny.gov/stats/nys/statewid
 ### Some Considerations
 All of the data was collected on May 22nd, and was analyzed for that date.
 
-<br><br><br>
-The analysis was done using:
+The analysis was done using the ETL model.
 ![approach.png](app/static/img/approach.png)
 
 ## Extract
